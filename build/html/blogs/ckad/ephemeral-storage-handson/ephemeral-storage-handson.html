@@ -1,0 +1,402 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+<link rel="index" title="Index" href="../../../genindex.html" /><link rel="search" title="Search" href="../../../search.html" />
+
+    <!-- Generated with Sphinx 6.2.1 and Furo 2023.09.10 -->
+        <title>🧸 Ephemeral Storage: A Hands-On Guide with emptyDir, ConfigMap, and Secret in Kubernetes - Kuberada Blog</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?digest=369552022d0b975c8e74270ce6eabe0fb7978f24" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/custom.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../../index.html"><div class="brand">Kuberada Blog</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../../index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo" src="../../../_static/kuberada-logo.png" alt="Logo"/>
+  </div>
+  
+  <span class="sidebar-brand-text">Kuberada Blog</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Get Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started/k8s.html">k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started/devops.html">Devops</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Blogs</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ckad-collection.html">k8s blogs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../devops/devops-collection.html">devops blogs</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <img alt="ephemeral" class="bg-primary" src="../../../_images/2.png" />
+<section class="tex2jax_ignore mathjax_ignore" id="ephemeral-storage-a-hands-on-guide-with-emptydir-configmap-and-secret-in-kubernetes">
+<span id="ephemeral"></span><h1>🧸 Ephemeral Storage: A Hands-On Guide with emptyDir, ConfigMap, and Secret in Kubernetes<a class="headerlink" href="#ephemeral-storage-a-hands-on-guide-with-emptydir-configmap-and-secret-in-kubernetes" title="Permalink to this heading">#</a></h1>
+<p>Ephemeral storage refers to temporary, short-lived storage that exists only for the duration of a specific process or container’s lifecycle. In containerized environments, such as Kubernetes, on-disk files inside the containers are considered ephemeral. You can create and modify these files but can’t preserve when the container is deleted or removed from the node for a reason.</p>
+<section id="when-to-use-ephemeral-storage">
+<h2>When to use ephemeral storage<a class="headerlink" href="#when-to-use-ephemeral-storage" title="Permalink to this heading">#</a></h2>
+<p>Let’s imagine that you’re running a dynamic website on a Kubernetes cluster where multiple containers collaborate to deliver a seamless user experience.</p>
+<ul class="simple">
+<li><p>You need a shared space: Multiple containers in your website infrastructure work in tandem, each handling specific functions like content serving, session management, or background tasks. Containers share an “emptyDir” volume, like a temporary repository, which we will learn how in the hands-on section.</p></li>
+<li><p>You need file sharing: Linux’s support for arbitrary mounting allows you to flexibly mount volumes at different locations within each container’s file system. Users can upload images in the shared “emptyDir” volume. This shared volume is accessible to various containers on the mounted paths, without the need for a separate persistent volume.</p></li>
+<li><p>Handling Large Datasets: You can utilize the “emptyDir” volume as an ideal temporary workspace for resource-intensive tasks like sorting large datasets. Even if a container crashes during operations (since the pod isn’t removed from the node during a crash), the data in the “emptyDir” volume remains intact. <a class="reference external" href="https://kubernetes.io/docs/concepts/storage/volumes/#emptydir">Reference</a></p></li>
+<li><p>You want to manage configuration: You may need to inject specific configuration settings to each container. You can leverage ConfigMaps and secrets to inject configuration data into pods, ensuring that all containers have the necessary settings.</p></li>
+</ul>
+</section>
+<section id="what-are-various-ephemeral-volume-types">
+<h2>What are various ephemeral volume types<a class="headerlink" href="#what-are-various-ephemeral-volume-types" title="Permalink to this heading">#</a></h2>
+<p>Kubernetes offers various ephemeral volumes and how they are ideal for:</p>
+<ul class="simple">
+<li><p><strong>emptyDir</strong>: Temporary storage needs in batch processing tasks, enabling data sharing across containers and resilience to container restarts.</p></li>
+<li><p><strong>configMap, downwardAPI, secret</strong>: Applications requiring dynamic configuration or handling sensitive information. These volumes inject data directly into the Pod, ensuring seamless and secure management.</p></li>
+<li><p><strong>CSI ephemeral volumes</strong>: Specialized storage requirements, like high-performance or specific file systems, addressed by dedicated CSI drivers.</p></li>
+<li><p><strong>Generic ephemeral volumes</strong>: Applications needing temporary storage but desiring flexibility in choosing different storage solutions, provided by various compatible storage drivers.</p></li>
+</ul>
+<p>Now that we have taken a look at the various ephemeral storage use cases and types, let’s get some hands-on skills that can help us in the Kubernetes exams.</p>
+<!-- ## [Hands-on Part]{.bg-warning} -->
+</section>
+<section id="hands-on-with-ephemeral-storage-in-kubernetes">
+<h2>Hands-on With Ephemeral Storage in Kubernetes<a class="headerlink" href="#hands-on-with-ephemeral-storage-in-kubernetes" title="Permalink to this heading">#</a></h2>
+<p><em>Duration: 15 mins</em></p>
+<section id="emptydir-scenario">
+<h3>emptydir scenario<a class="headerlink" href="#emptydir-scenario" title="Permalink to this heading">#</a></h3>
+<p><strong>Problem Statement</strong></p>
+<p>You are tasked with implementing a shared storage solution named shared-vol in a Kubernetes cluster to facilitate communication and data exchange between two pods. The shared volume should persist as long as the pods are alive.</p>
+<p><strong>Requirements</strong></p>
+<ul class="simple">
+<li><p>Create a pod named tenants with two containers using the alpine:latest image.</p></li>
+<li><p>Ensure that both pods (ct100 and cta150) remain running as long as the tenants pod is active.</p></li>
+<li><p>Create a volume named shared-vol, name the first container ct100 and mount the shared volume at /var/www/html.</p></li>
+<li><p>Name the second container cta150 and mount the same shared volume at /var/html.</p></li>
+<li><p>Inside the ct100 pod, create an index.html file in the mounted volume (/var/www/html) with some content.</p></li>
+<li><p>Verify that the cta150 pod can access and list the index.html file from the shared volume (/var/html).</p></li>
+</ul>
+<p><strong>Expected Outcome</strong></p>
+<p>Upon successful implementation, the ct100 pod should serve as a producer by creating an index.html file, and the cta150 pod should serve as a consumer by displaying the content of the index.html file from the shared volume. This scenario demonstrates the use of shared ephemeral storage to enable communication and data exchange between containers within a Kubernetes pod.</p>
+<p><strong>a quick note on solutions</strong></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>The solution for this task can be found in the <a class="reference external" href="https://github.com/colossus06/kuberada-labs/tree/main/storage-ephemeral">blog’s repository</a>. Clone the repo and change directory into storage-ephemeral. Explore the repository to review the codes and files associated with it if you’re encountering this task for the first or second time. Remember to attempt solving it without referring to the codes in the repository afterward.</p>
+</div>
+<p><img alt="" src="../../../_images/20240103182814.png" /></p>
+<p><strong>solution</strong></p>
+<p>We will first create a pod spec yaml file and add the second container accordingly. Then navigate to the kubernetes documentation to copy and paste the <a class="reference external" href="https://kubernetes.io/docs/concepts/storage/volumes/">emptyDir configuration example</a> to declare and mount the volume. For declaration of a volume, we need a name and a type.</p>
+<p><img alt="" src="../../../_images/20240103165734.png" /></p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="w">  </span>volumes:
+<span class="w">  </span>-<span class="w"> </span>name:<span class="w"> </span>shared-vol
+<span class="w">    </span>emptyDir<span class="w"> </span><span class="o">{}</span><span class="w"> </span>
+</pre></div>
+</div>
+<p>Pay attention to the paths while mounting.</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="w">    </span>volumeMounts:
+<span class="w">    </span>-<span class="w"> </span>mountPath:<span class="w"> </span>/var/www/html<span class="w"> </span>or<span class="w"> </span>/var/html
+<span class="w">      </span>name:<span class="w"> </span>shared-vol
+</pre></div>
+</div>
+<p>Lastly verify that we can access the index.html file from the other containers, cta150 in this case.</p>
+<p><img alt="" src="../../../_images/20240103163600.png" /></p>
+</section>
+<section id="configmap-scenario">
+<h3>configmap scenario<a class="headerlink" href="#configmap-scenario" title="Permalink to this heading">#</a></h3>
+<p><strong>Task</strong></p>
+<p>You’ve been tasked with ensuring smooth configuration management for the ‘dev02’ team’s frontend application. Let’s navigate through this scenario:</p>
+<p><strong>Requirements:</strong></p>
+<ul class="simple">
+<li><p>Create a ConfigMap named ‘cm1602’ with key-value pairs, configuring essential parameters for the frontend application. This includes ‘app=frontend’ and ‘team=dev02’.</p></li>
+<li><p>Introduce a Pod named ‘consumer’ using the ‘bitnami/nginx’ image. This Pod will serve as the consumer, leveraging the configuration values - provided by the ‘cm1602’ ConfigMap.</p></li>
+<li><p>Create a volume named shared-cm and mount the ConfigMap as a volume at /var/src.</p></li>
+<li><p>Display the  contents on the <code class="docutils literal notranslate"><span class="pre">/var/src</span></code> directory. This step serves as a validation that the configuration values from the ‘cm1602’</p></li>
+</ul>
+<p><strong>Expected Outcome:</strong></p>
+<p>Upon successful implementation of this scenario, the ‘consumer’ Pod showcases the power of ConfigMaps in Kubernetes. The ‘dev02’ team’s frontend application benefits from seamless configuration, providing a robust foundation for smooth development and operations.</p>
+<p><strong>solution</strong></p>
+<p>For creating a configmap and mounting it as a volume to a container, all we need is to change the type to configMap as shown in the following sections and on kubernetes docs on <a class="reference external" href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/#populate-a-volume-with-data-stored-in-a-configmap">Populate a Volume with data stored in a ConfigMap</a>.</p>
+<p><img alt="" src="../../../_images/20240103165821.png" /></p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="w">  </span>volumes:
+<span class="w">    </span>-<span class="w"> </span>name:<span class="w"> </span>shared-cm
+<span class="w">      </span>configMap:
+<span class="w">        </span>name:<span class="w"> </span>cm1602
+</pre></div>
+</div>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="w">    </span>volumeMounts:
+<span class="w">    </span>-<span class="w"> </span>name:<span class="w"> </span>shared-cm
+<span class="w">      </span>mountPath:<span class="w"> </span>/var/src
+</pre></div>
+</div>
+<p>Let’s list the contents of the cm:</p>
+<p><img alt="" src="../../../_images/20240103165947.png" /></p>
+</section>
+<section id="secret-scenario">
+<h3>secret scenario<a class="headerlink" href="#secret-scenario" title="Permalink to this heading">#</a></h3>
+<p><strong>Problem Statement:</strong></p>
+<p>In the secure realm of the ‘secretns102’ namespace, you’re tasked with deploying a Pod  using the ‘nginx’ image. The challenge is not just running the Pod but ensuring it securely consumes sensitive information stored in a secret.</p>
+<p><strong>Requirements:</strong></p>
+<ul class="simple">
+<li><p>Deploy the ‘secret’ Pod using the bitnami/nginx image within the ‘secretns102’ namespace. This Pod will serve as a secure environment where sensitive data will be consumed.</p></li>
+<li><p>Create a secret named <code class="docutils literal notranslate"><span class="pre">consumable</span></code> on the same namespace from the following key value pairs: psw=admin, user=admin.</p></li>
+<li><p>Consume the secret as a volume within the Pod. Name it as you wish</p></li>
+<li><p>Mount this secret to the path ‘/var/src’ and ensure it’s set with read-only access to safeguard the sensitive information from unauthorized - modifications.</p></li>
+<li><p>Display the contents of the securely mounted secret at ‘/var/src.’</p></li>
+</ul>
+<p><strong>Expected Outcome:</strong></p>
+<p>Upon successful implementation of this scenario, the ‘secret’ Pod in the ‘secretns102’ namespace stands as a testament to securely consuming and utilizing sensitive information from the ‘consumable’ Secret. This approach ensures that confidential data remains protected within the Kubernetes environment.</p>
+<p><strong>solution</strong></p>
+<p>We will combine all the above techniques for creating for creating a secret and mounting it as a volume. First we need to change the type to secret and name to secretName as shown in the following snippets. These snippets are taken from the official docs and you can read more on the related section <a class="reference external" href="https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/#provide-prod-test-creds">here</a>.</p>
+<p><img alt="" src="../../../_images/20240103170026.png" /></p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="w">  </span>volumes:
+<span class="w">    </span>-<span class="w"> </span>name:<span class="w"> </span>shared-secret
+<span class="w">      </span>secret:
+<span class="w">        </span>secretName:<span class="w"> </span>consumable
+</pre></div>
+</div>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="w">    </span>volumeMounts:
+<span class="w">    </span>-<span class="w"> </span>name:<span class="w"> </span>shared-secret
+<span class="w">        </span>mountPath:<span class="w"> </span><span class="s2">&quot;/var/src&quot;</span>
+</pre></div>
+</div>
+<p>Can you list the contents on the directory? Yes!</p>
+<p><img alt="" src="../../../_images/20240103170110.png" /></p>
+</section>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this heading">#</a></h2>
+<p>Ephemeral storage provides dynamic solutions to challenges like data persistence, collaboration, and configuration management within containerized environments.</p>
+<p>In your Kubernetes journey, these hands-on experiences and insights serve as valuable tools. Remember, the ability to navigate ephemeral storage nuances not only prepares you for exams but also equips you to tackle real-world challenges in deploying scalable, resilient, and efficient applications in Kubernetes.</p>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, kuberada
+            </div>
+            Made with 
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">🧸 Ephemeral Storage: A Hands-On Guide with emptyDir, ConfigMap, and Secret in Kubernetes</a><ul>
+<li><a class="reference internal" href="#when-to-use-ephemeral-storage">When to use ephemeral storage</a></li>
+<li><a class="reference internal" href="#what-are-various-ephemeral-volume-types">What are various ephemeral volume types</a></li>
+<li><a class="reference internal" href="#hands-on-with-ephemeral-storage-in-kubernetes">Hands-on With Ephemeral Storage in Kubernetes</a><ul>
+<li><a class="reference internal" href="#emptydir-scenario">emptydir scenario</a></li>
+<li><a class="reference internal" href="#configmap-scenario">configmap scenario</a></li>
+<li><a class="reference internal" href="#secret-scenario">secret scenario</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/sphinx_highlight.js"></script>
+    <script src="../../../_static/scripts/furo.js"></script>
+    </body>
+</html>

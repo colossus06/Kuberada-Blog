@@ -32,7 +32,7 @@ source_suffix = ['.rst', '.md']
 
 copyright = "2024, kuberada"
 
-html_logo= "images/kuberada-logo.png"
+html_logo= "images/kuberada.png"
 
 html_css_files = ["custom.css"]
 

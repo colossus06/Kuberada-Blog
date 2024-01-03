@@ -1,5 +1,5 @@
 :orphan:
-<img src="assets/ephemeral.png" alt="ephemeral" class="bg-primary">
+<img src="assets/2.png" alt="ephemeral" class="bg-primary">
 
 
 (ephemeral)=
@@ -12,10 +12,7 @@ Ephemeral storage refers to temporary, short-lived storage that exists only for 
 
 Let's imagine that you're running a dynamic website on a Kubernetes cluster where multiple containers collaborate to deliver a seamless user experience.
 
-
-- You need storage persistence across container restarts: If your website containers require data consistency you can utilize “emptyDir” volume as a shared space. It will acts as a temporary repository and when the containers restart, the new ones will seamlessly access the same files, maintaining continuity.
-
-- You need a shared space: Multiple containers in your website infrastructure work in tandem, each handling specific functions like content serving, session management, or background tasks. Containers share an "emptyDir" volume, which we will learn how in the hands-on section.
+- You need a shared space: Multiple containers in your website infrastructure work in tandem, each handling specific functions like content serving, session management, or background tasks. Containers share an "emptyDir" volume, like a temporary repository, which we will learn how in the hands-on section.
 
 - You need file sharing: Linux's support for arbitrary mounting allows you to flexibly mount volumes at different locations within each container's file system. Users can upload images in the shared "emptyDir" volume. This shared volume is accessible to various containers on the mounted paths, without the need for a separate persistent volume.
 
