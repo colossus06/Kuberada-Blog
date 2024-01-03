@@ -1,0 +1,17 @@
+{# your_custom_template.html #}
+
+{% extends "!layout.html" %}
+
+<!-- {% block body %}
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-md-8">
+        {# Your content goes here #}
+        {{ super() }}
+      </div>
+    </div>
+  </div>
+{% endblock %} -->
+
+{# Custom CSS overrides #}
+{% set css_files = css_files + ['_static/custom.css'] %}

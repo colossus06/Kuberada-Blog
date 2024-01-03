@@ -1,0 +1,67 @@
+% ckad-devops documentation master file, created by
+% sphinx-quickstart on Mon Jan  1 23:06:34 2024.
+% You can adapt this file completely to your liking, but it should at least
+% contain the root `toctree` directive.
+
+# Kuberada Blog Hands-on Learning!
+
+
+Kuberada serves as a collaborative blog platform where you can explore and engage in hands-on activities related to DevOps, Kubernetes, Linux, and scripting. The blog content is specifically tailored for CKAD and python enthusiasts. Make it a habit to frequent the blog to ensure you don't overlook high-quality, hands-on articles in your area of interest.
+
+### what is k8s?
+
+```{include} blogs/snippets/what-is-k8s.md
+```
+
+
+### what is devops?
+
+```{include} blogs/snippets/what-is-devops.md
+```
+
+### python and devops
+
+```{include} blogs/snippets/python-and-devops.md
+```
+
+</br>
+
+## Latest Blogs 👁‍🗨🗒
+
+</br>
+
+{ref}`ephemeral`
+
+<!-- {ref}`devops` -->
+
+
+
+```{toctree}
+:caption: Get Started
+:hidden:
+blogs/get-started/k8s
+blogs/get-started/devops
+```
+
+
+```{toctree}
+:caption: Blogs
+:hidden:
+blogs/ckad/ckad-collection
+blogs/devops/devops-collection
+```
+
+</br>
+
+
+#### 🚧 **Under Construction** 🚧
+
+We're working hard to bring you an even better blogging experience! Our site is currently undergoing maintenance, and some features may be temporarily unavailable.
+
+Estimated completion: [After clearing CKAD :)].
+
+Follow us for updates!
+
+```{admonition} This is a title
+  This blog is under construction
+```
