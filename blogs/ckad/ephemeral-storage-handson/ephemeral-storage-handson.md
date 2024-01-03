@@ -64,9 +64,19 @@ You are tasked with implementing a shared storage solution named shared-vol in a
 Upon successful implementation, the ct100 pod should serve as a producer by creating an index.html file, and the cta150 pod should serve as a consumer by displaying the content of the index.html file from the shared volume. This scenario demonstrates the use of shared ephemeral storage to enable communication and data exchange between containers within a Kubernetes pod.
 
 
-**solution**
 
-The solution for this task can be found in the blog's repository. Explore the repository to review the codes and files associated with it if you're encountering this task for the first or second time. Remember to attempt solving it without referring to the codes in the repository afterward.
+
+**a quick note on solutions**
+
+
+```{tip}
+  The solution for this task can be found in the [blog's repository](https://github.com/colossus06/kuberada-labs/tree/main/storage-ephemeral). Clone the repo and change directory into storage-ephemeral. Explore the repository to review the codes and files associated with it if you're encountering this task for the first or second time. Remember to attempt solving it without referring to the codes in the repository afterward.
+```
+
+
+![](assets/20240103182814.png)
+
+**solution**
 
 We will first create a pod spec yaml file and add the second container accordingly. Then navigate to the kubernetes documentation to copy and paste the [emptyDir configuration example](https://kubernetes.io/docs/concepts/storage/volumes/) to declare and mount the volume. For declaration of a volume, we need a name and a type. 
 
