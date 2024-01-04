@@ -8,3 +8,4 @@ rst-to-myst[sphinx]
 sphinx-wagtail-theme
 sphinx-autobuild
 furo
+sphinxext-opengraph

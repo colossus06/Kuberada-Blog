@@ -18,8 +18,13 @@ author = 'kuberada'
 
 
 extensions = [ 
-    "myst_parser"        
+    "myst_parser",
+    "sphinxext.opengraph"     
 ]
+
+ogp_site_url = "https://kuberada-blog.readthedocs.io/en/latest/index.html"
+ogp_type = "article"
+ogp_image = "https://drive.google.com/file/d/1Z4i4TejyElVto4lAQsw3xQiHL2oubFs6/view?usp=sharing"
 
 
 templates_path = ['_templates']
@@ -64,8 +69,7 @@ myst_enable_extensions = [
 html_context = {
     "display_github": False, # Add 'Edit on Github' link instead of 'View page source'
     "last_updated": False,
-    "commit": False,
-    "default_mode": "light"
+    "commit": False
 }
 
 html_show_sourcelink = False
