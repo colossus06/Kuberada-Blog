@@ -24,7 +24,7 @@ extensions = [
 
 ogp_site_url = "https://kuberada-blog.readthedocs.io/en/latest/index.html"
 ogp_type = "article"
-ogp_image = "https://drive.google.com/file/d/1Z4i4TejyElVto4lAQsw3xQiHL2oubFs6/view?usp=sharing"
+ogp_image = "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kuberada.png"
 
 
 templates_path = ['_templates']
