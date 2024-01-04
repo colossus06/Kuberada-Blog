@@ -1,5 +1,5 @@
-:og:description: "Ephemeral Storage: A Hands-On Guide with emptyDir, ConfigMap, and Secret in Kubernetes"
-:og:image: "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral.png"
+:og:description: Ephemeral Storage: A Hands-On Guide with emptyDir, ConfigMap, and Secret in Kubernetes
+:og:image: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral.png
 :og:image:alt: "ephemeral Image"
 :orphan:
 
