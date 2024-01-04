@@ -22,13 +22,27 @@ extensions = [
     "sphinxext.opengraph"     
 ]
 
+
+# -- Project information
+copyright = "2024, Kuberada"
+author = "Gulcan Topcu"
 ogp_site_url = "https://kuberada-blog.readthedocs.io/en/latest/index.html"
 ogp_type = "article"
 ogp_image = "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kuberada.png"
 
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+
+exclude_patterns = [
+    "_build",
+    "Thumbs.db",
+    ".DS_Store",
+    "*import_posts*",
+    "**/pandoc_ipynb/inputs/*",
+    "README.md",
+    "**/.ipynb_checkpoints/*",
+    "docs",
+]
 source_suffix = ['.rst', '.md']
 
 html_favicon = 'images/favicon.png'

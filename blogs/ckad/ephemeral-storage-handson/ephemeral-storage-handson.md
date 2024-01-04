@@ -1,9 +1,11 @@
-:og:url: https://kuberada-blog.readthedocs.io/en/latest/blogs/ckad/ephemeral-storage-handson/ephemeral-storage-handson.html
-:og:image: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral2.png
-:og:description: Ephemeral Storage: A Hands-On Guide with emptyDir, ConfigMap, and Secret in Kubernetes
-:og:image:alt: ephemeral Image
-
-:orphan:
+---
+:description: A little bit about me...
+html_meta:
+  "description lang=en": "About Kuberada. Hands-on Kubernetes, Devops, python blog"
+  "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, ephemeral-storage, emptydir"
+  "property=og:locale": "en_US"
+  "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral2.png"
+---
 
 <img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral2.png" alt="ephemeral" class="bg-primary">
 

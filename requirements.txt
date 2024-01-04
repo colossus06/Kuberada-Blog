@@ -1,11 +1,11 @@
 sphinx
-sphinx-wagtail-theme
 myst-parser
 h5py
 typing-extensions
 wheel
 rst-to-myst[sphinx]
-sphinx-wagtail-theme
 sphinx-autobuild
 furo
 sphinxext-opengraph
+sphinx-copybutton
+ablog
