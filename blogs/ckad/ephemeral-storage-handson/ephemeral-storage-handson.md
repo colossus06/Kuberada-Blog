@@ -45,6 +45,20 @@ Now that we have taken a look at the various ephemeral storage use cases and typ
 
 *Duration: 15 mins*
 
+
+If you dont specify a medium for emptydir, it is mounted to the disk by default as you can see in the following example:
+
+
+![](assets/20240104143059.png)
+
+Let's try mounting emptyDir volume to the RAM adding a medium. You can find the lab resources on the [kuberada-labs repository](https://github.com/colossus06/kuberada-labs/tree/main/storage-ephemeral).
+
+
+![](assets/20240104143747.png)
+
+We created emptydir using disk and memory. 
+
+
 ### emptydir scenario
 
 **Problem Statement**
