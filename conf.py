@@ -19,7 +19,7 @@ author = 'kuberada'
 
 extensions = [ 
     "myst_parser",
-    "sphinxext.opengraph"     
+    "sphinxext.opengraph"
 ]
 
 
@@ -60,7 +60,7 @@ html_theme = 'furo'
 html_static_path = ['_static']
 
 html_theme_options = {
-    'navigation_with_keys': True,
+    'navigation_with_keys': True
 }
 
 # These are options specifically for the Wagtail Theme.
@@ -84,7 +84,8 @@ myst_enable_extensions = [
 html_context = {
     "display_github": False, # Add 'Edit on Github' link instead of 'View page source'
     "last_updated": False,
-    "commit": False
+    "commit": False,
+    "default_mode": "light"
 }
 
 html_show_sourcelink = False

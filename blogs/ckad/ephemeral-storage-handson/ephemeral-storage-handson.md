@@ -1,5 +1,5 @@
 ---
-:description: A little bit about me...
+:description: A little bit about the article...
 html_meta:
   "description lang=en": "About Kuberada. Hands-on Kubernetes, Devops, python blog"
   "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, ephemeral-storage, emptydir"
