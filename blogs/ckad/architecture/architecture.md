@@ -11,10 +11,10 @@ html_meta:
 
 <img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/architecture.png" alt="k8s-architecture" class="bg-primary">
 
-**Author:** [Gulcan Topcu](https://www.linkedin.com/in/gulcantopcu/)-*Devops Engineer*
-
 (architecture)=
 # 🔩Understanding Architecture of a Kubernetes Cluster⚙️
+
+**Author:** [Gulcan Topcu](https://www.linkedin.com/in/gulcantopcu/)-*Devops Engineer*
 
 Kubernetes, an open-source container orchestration platform, has transformed the landscape of deploying and managing containerized applications. To harness its power effectively, it's crucial to comprehend the architecture that underpins its scalability and fault-tolerance. Let's navigate through the key components that makes up the Kubernetes architecture. 
 
