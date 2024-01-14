@@ -139,5 +139,7 @@ Dive deeper into the world of kuberada with the next topic. Uncover additional t
 
 Happy reading! 📚✨
 
-<div class="sharethis-inline-share-buttons"></div>
+<!-- <div class="sharethis-inline-share-buttons"></div> -->
+
+<div class="sop"></div>
 
