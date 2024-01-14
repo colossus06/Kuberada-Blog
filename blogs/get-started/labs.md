@@ -10,7 +10,6 @@ Kuberada Labs are now not just on our blog but also on GitHub. Explore hands-on 
 
 <a class="btn btn-success btn-lg" href="https://github.com/colossus06/kuberada-labs" role="button">kuberada labs</a>
 
-
 ## Killerkoda scenarios
 
 **Navigate to killerkoda scenarios here** 👇
