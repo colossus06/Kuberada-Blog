@@ -26,9 +26,9 @@ extensions = [
 # -- Project information
 copyright = "2024, Kuberada"
 author = "Gulcan Topcu"
-ogp_site_url = "https://kuberada-blog.readthedocs.io/en/latest/index.html"
+ogp_site_url = "https://kuberada.devtechops.dev/"
 ogp_type = "article"
-ogp_image = "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kuberada.png"
+ogp_image = "https://raw.githubusercontent.com/kuberada/kuberada-blog/main/og/kuberada.png"
 
 
 templates_path = ['_templates']
