@@ -5,13 +5,12 @@
 {%- block extrahead %}
 <meta name="type" content="{{ type }}" />
 {% if 'article' in page_meta.get('og:type', '') %}
+  <script type="text/javascript" src="../_static/activate.js"></script>
   <script type="text/javascript" src="../_static/share.js"></script>
+  <script type="text/javascript" src="../_static/react.js"></script>
+  
 {% endif %}
 
-<meta name="type" content="{{ type }}" />
-{% if 'article' in page_meta.get('og:type', '') %}
-  <script type="text/javascript" src="../_static/react.js"></script>
-{% endif %}
 
 {% endblock %}
 
