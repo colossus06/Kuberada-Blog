@@ -6,6 +6,14 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+
+# def setup(app):
+#     # (create a setup() function if you don't already have one;
+#     # or add to the existing setup() ...)
+#     app.add_js_file("custom.js")
+
+
+
 html_title = 'Kuberada Blog'
 
 project = 'kuberada-Hands-on Learning'
@@ -58,6 +66,7 @@ html_css_files = ["custom.css"]
 
 html_theme = 'furo'
 html_static_path = ['_static']
+html_js_files = ["custom.js"]
 
 html_theme_options = {
     'navigation_with_keys': True

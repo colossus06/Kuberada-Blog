@@ -26,6 +26,5 @@ Happy Coding! 🚀📝
 ## Connect with us on Linkedin
 
 
-
 - [Kumail Rizvi](https://www.linkedin.com/in/kumail-rizvi-6a6412172/)
 - [Gulcan Topcu](https://www.linkedin.com/in/gulcantopcu/)

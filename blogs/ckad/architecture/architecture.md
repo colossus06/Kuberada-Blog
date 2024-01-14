@@ -1,4 +1,20 @@
-# Architecture of a Kubernetes Cluster
+---
+:description: A little bit about the article...
+html_meta:
+  "description lang=en": "About Kuberada. Hands-on Kubernetes, Devops, python blog"
+  "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, kubernetes architecture, control plane components, worker node components"
+  "property=og:locale": "en_US"
+  "property=og:type" : "article"
+  "property=og:title" : "Understanding Architecture of a Kubernetes Cluster"
+  "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/architecture.png"
+---
+
+<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/architecture.png" alt="k8s-architecture" class="bg-primary">
+
+**Author:** [Gulcan Topcu](https://www.linkedin.com/in/gulcantopcu/)-*Devops Engineer*
+
+(architecture)=
+# 🔩Understanding Architecture of a Kubernetes Cluster⚙️
 
 Kubernetes, an open-source container orchestration platform, has transformed the landscape of deploying and managing containerized applications. To harness its power effectively, it's crucial to comprehend the architecture that underpins its scalability and fault-tolerance. Let's navigate through the key components that makes up the Kubernetes architecture. 
 
@@ -12,11 +28,14 @@ The number "8" in "K8s" represents the eight letters between "K" and "s" in the 
 We have 2 core pieces in a kubernetes cluster: control plane and worker node.
 
 
+![](assets/diagram.png)
+
 ### Master Node/Control Plane
 
 At the heart of Kubernetes architecture lies the master node, acting as the control plane for the entire cluster. It takes charge of managing the cluster state and making pivotal decisions related to scheduling, scaling, and maintaining the desired state of applications.
 
-In production environments, you can observe multiple distributed control plane components to ensure fault tolerance, high availability, and scalability. The number of control plane components is dependent on factors such as 
+In production environments, you can observe multiple distributed control plane components to ensure fault tolerance, high availability, and scalability. The number of control plane components is dependent on factors such as the following:
+
 - the size of the Kubernetes cluster, 
 - performance requirements, 
 - architecture design,
@@ -34,7 +53,7 @@ Tasked with determining the suitable nodes for running specific pod instances, t
 
 #### Controller Manager
 
-This component houses controllers (like deployment controller)responsible for preserving the desired state of the cluster. Continuously monitoring the cluster, controllers take corrective actions to ensure alignment with the specified configuration.
+This component houses controllers (like deployment controller) responsible for preserving the desired state of the cluster. Continuously monitoring the cluster, controllers take corrective actions to ensure alignment with the specified configuration.
 
 #### etcd
 
@@ -79,36 +98,46 @@ We have 2 different clusters . For the first cluster we have [kubeadm](https://k
 ### kubeadm 2 node cluster components
 
 
-![](20240114120023.png)
+![](assets/20240114120023.png)
 
-![](20240114130252.png)
+![](assets/20240114130252.png)
 
-![](20240114112959.png)
+![](assets/20240114112959.png)
 
 
 - The components we see in kubeadm cluster are aligned with a typical Kubernetes cluster. Components like `calico-kube-controllers`, `canal`, `coredns`, `etcd`, `kube-apiserver`, `kube-controller-manager`, `kube-proxy`, and `kube-scheduler` are fundamental parts of a standard Kubernetes control plane.
-- This cluster seems to be set up for more production-like scenarios with components like `etcd` serving as the distributed key-value store.
+- This cluster setup is suitable for production-like scenarios with components like `etcd` serving as the distributed key-value store.
 
 ### k3d cluster components
 
-We have k3d cluster named `architecture`. 
+Let's take a look at the second cluster. This is a k3d cluster named `architecture`. 
 
-![](20240114115629.png)
+![](assets/20240114115629.png)
 
-![](20240114115526.png)
+![](assets/20240114115526.png)
 
 
-As you can observe, since there are variations in the Kubernetes distributions we use there are differences in the output of `kubectl get pods -n kube-system` command
-
+As you can observe, there are differences in the output of `kubectl get pods -n kube-system` command. 
 
 - k3d cluster is a lightweight Kubernetes distribution designed for ease of use and reduced resource requirements. It is suitable for development environments
 - The components you see in the output like `local-path-provisioner`, `helm-install-traefik`, `svclb-traefik`, and `traefik`are specific to the K3s distribution used for lightweight and development environments.
 
-2. **kubeadm Cluster:**
- 
-
 
 ## Conclusion
 
-A robust understanding of Kubernetes architecture is important for seamless deployment and management of applications within a cluster. The collaborative orchestration of master nodes, worker nodes, pods, services, and ingress provides a resilient and scalable platform for containerized applications. As you embark on your Kubernetes journey, embrace the power and adaptability that Kubernetes offers for modern application development and deployment.
+A robust understanding of Kubernetes architecture is important for seamless deployment and management of applications within a cluster. The collaborative orchestration of master nodes, worker nodes, pods, services, and ingress provides a resilient and scalable platform for containerized applications. 
+
+
+### Explore More Insights!
+
+Enjoyed this read? 
+Dive deeper into the world of kuberada with the next topic. Uncover additional tips, tricks, and valuable insights to enhance your understanding of kubernetes. Your learning journey continues – don't miss out!
+
+👉 For a wealth of knowledge, check our blog archives.
+
+<!-- ShareThis BEGIN --><div class="sharethis-inline-reaction-buttons"></div><!-- ShareThis END -->
+
+Happy reading! 📚✨
+
+<div class="sharethis-inline-share-buttons"></div>
 

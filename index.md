@@ -70,6 +70,7 @@ blogs/get-started/labs
 ```{toctree}
 :caption: Latest Blogs
 :hidden:
+blogs/ckad/architecture/architecture.md
 blogs/ckad/ephemeral-storage-handson/ephemeral-storage-handson.md
 ```
 
