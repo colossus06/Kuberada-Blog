@@ -66,7 +66,7 @@ html_css_files = ["custom.css"]
 
 html_theme = 'furo'
 html_static_path = ['_static']
-html_js_files = ["custom.js"]
+
 
 html_theme_options = {
     'navigation_with_keys': True
