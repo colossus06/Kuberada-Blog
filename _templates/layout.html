@@ -2,17 +2,15 @@
 
 {% extends "!layout.html" %}
 
+{% block footer %}
+
+<!-- <script type="text/javascript" src="../_static/activate.js"></script> -->
+
+{% endblock %}
+
 {%- block extrahead %}
-<meta name="type" content="{{ type }}" />
-{% if 'article' in page_meta.get('og:type', '') %}
-  <script type="text/javascript" src="../_static/activate.js"></script>
-  <script type="text/javascript" src="../_static/share.js"></script>
-  <script type="text/javascript" src="../_static/react.js"></script>
-  
-{% endif %}
 
-
-
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=65a5445df771bd00123744da&product=sop' async='async'></script>
 
 {% endblock %}
 
