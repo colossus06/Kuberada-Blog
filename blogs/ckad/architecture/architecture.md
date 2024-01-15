@@ -1,12 +1,12 @@
 ---
-:description: A little bit about the article...
-html_meta:
-  "description lang=en": "About Kuberada. Hands-on Kubernetes, Devops, python blog"
-  "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, kubernetes architecture, control plane components, worker node components"
-  "property=og:locale": "en_US"
-  "property=og:type" : "article"
-  "property=og:title" : "Understanding Architecture of a Kubernetes Cluster"
-  "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/architecture.png"
+myst:
+  html_meta:
+    "description lang=en": "About Kuberada. Hands-on Kubernetes, Devops, python blog"
+    "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, kubernetes architecture, control plane components, worker node components"
+    "property=og:locale": "en_US"
+    "property=og:type" : "article"
+    "property=og:title" : "Understanding Architecture of a Kubernetes Cluster"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/architecture.png"
 ---
 
 <img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/architecture.png" alt="k8s-architecture" class="bg-primary">
@@ -16,7 +16,7 @@ html_meta:
 
 **Author:** [Gulcan Topcu](https://www.linkedin.com/in/gulcantopcu/)-*Devops Engineer*
 
-Kubernetes, an open-source container orchestration platform, has transformed the landscape of deploying and managing containerized applications. To harness its power effectively, it's crucial to comprehend the architecture that underpins its scalability and fault-tolerance. Let's navigate through the key components that makes up the Kubernetes architecture. 
+Kubernetes, an open-source container orchestration platform, has transformed the landscape of deploying and managing containerized applications. To harness its power effectively, it's crucial to comprehend the architecture that underpins its scalability and fault-tolerance. Let's navigate through the key components that makes up the Kubernetes architecture.
 
 
 ## Whay does it called K8s?

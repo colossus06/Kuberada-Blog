@@ -10,9 +10,6 @@
 # def setup(app):
 #     # (create a setup() function if you don't already have one;
 #     # or add to the existing setup() ...)
-#     app.add_js_file("custom.js")
-
-
 
 html_title = 'Kuberada Blog'
 
@@ -21,8 +18,7 @@ project = 'kuberada-Hands-on Learning'
 author = 'kuberada'
 # release = '2024'
 
-# -- General configuration ---------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
+
 
 
 extensions = [ 
@@ -34,9 +30,9 @@ extensions = [
 # -- Project information
 copyright = "2024, Kuberada"
 author = "Gulcan Topcu"
-ogp_site_url = "https://kuberada.devtechops.dev/"
+ogp_site_url = "https://devtechops.dev/"
 ogp_type = "article"
-ogp_image = "https://raw.githubusercontent.com/kuberada/kuberada-blog/main/og/kuberada.png"
+ogp_image = "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kuberada.png"
 
 
 templates_path = ['_templates']
@@ -68,6 +64,7 @@ html_theme = 'furo'
 html_static_path = ['_static']
 
 
+
 html_theme_options = {
     'navigation_with_keys': True
 }
@@ -77,7 +74,6 @@ myst_enable_extensions = [
     "amsmath",
     "attrs_inline",
     "colon_fence",
-    "deflist",
     "dollarmath",
     "fieldlist",
     "html_admonition",
@@ -100,6 +96,3 @@ html_show_sourcelink = False
 
 html_show_sphinx = False
 master_doc = 'index'
-
-
-

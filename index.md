@@ -74,6 +74,7 @@ blogs/ckad/architecture/architecture.md
 blogs/ckad/ephemeral-storage-handson/ephemeral-storage-handson.md
 ```
 
+
 </br>
 
 ```{toctree}

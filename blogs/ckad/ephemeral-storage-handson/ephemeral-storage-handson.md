@@ -1,10 +1,10 @@
 ---
-:description: A little bit about the article...
-html_meta:
-  "description lang=en": "About Kuberada. Hands-on Kubernetes, Devops, python blog"
-  "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, ephemeral-storage, emptydir"
-  "property=og:locale": "en_US"
-  "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral2.png"
+myst:
+  html_meta:
+    "description lang=en": "About Kuberada. Hands-on Kubernetes, Devops, python blog"
+    "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, ephemeral-storage, emptydir"
+    "property=og:locale": "en_US"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral2.png"
 ---
 
 <img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral2.png" alt="ephemeral" class="bg-primary">

@@ -1,11 +1,9 @@
 sphinx
 myst-parser
-h5py
 typing-extensions
-wheel
 rst-to-myst[sphinx]
 sphinx-autobuild
 furo
 sphinxext-opengraph
 sphinx-copybutton
-ablog
+
