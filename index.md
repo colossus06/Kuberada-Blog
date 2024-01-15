@@ -33,10 +33,10 @@ We understand the importance of practical experience in mastering the intricacie
 
 </br>
 
-{ref}`ephemeral`
+```{include} blogs/ckad/ckad-collection.md
+```
 
 <!-- {ref}`devops` -->
-
 
 
 
@@ -73,6 +73,13 @@ blogs/get-started/labs
 blogs/ckad/architecture/architecture.md
 blogs/ckad/ephemeral-storage-handson/ephemeral-storage-handson.md
 ```
+
+<!-- </br>
+
+```{toctree}
+:hidden:
+blogs/authors/gulcan.md
+``` -->
 
 
 </br>

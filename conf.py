@@ -23,7 +23,8 @@ author = 'kuberada'
 
 extensions = [ 
     "myst_parser",
-    "sphinxext.opengraph"
+    "sphinxext.opengraph",
+    "sphinx_design"
 ]
 
 
@@ -58,16 +59,25 @@ copyright = "2024, kuberada"
 
 html_logo= "images/kuberada.png"
 
-html_css_files = ["custom.css"]
+
 
 html_theme = 'furo'
 html_static_path = ['_static']
+
+html_css_files = ["css/custom.css"]
 
 
 
 html_theme_options = {
     'navigation_with_keys': True
 }
+
+html_js_files = [
+    'js/activate.js',
+    'js/react.js',
+    'js/share.js',
+    'js/joke.js'
+]
 
 # These are options specifically for the Wagtail Theme.
 myst_enable_extensions = [

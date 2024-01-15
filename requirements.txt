@@ -6,4 +6,5 @@ sphinx-autobuild
 furo
 sphinxext-opengraph
 sphinx-copybutton
+sphinx-design
 

@@ -4,5 +4,3 @@ script.src = 'https://platform-api.sharethis.com/js/sharethis.js#property=65a45e
 script.async = true;
 
 document.head.appendChild(script);
-
-<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=65a455dfb492fb00132dcf88&product=inline-share-buttons' async='async'></script>

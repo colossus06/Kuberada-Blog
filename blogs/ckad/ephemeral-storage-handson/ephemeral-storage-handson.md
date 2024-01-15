@@ -12,7 +12,17 @@ myst:
 (ephemeral)=
 # 🧸 Ephemeral Storage: A Hands-On Guide with emptyDir, ConfigMap, and Secret in Kubernetes
 
-**Author:** [Gulcan Topcu](https://www.linkedin.com/in/gulcantopcu/)-*Devops Engineer*
+```{article-info}
+:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/gulcan-topcu.png
+:avatar-link: ../../../blogs/authors/gulcan.html
+:avatar-outline: muted
+:author: Gulcan Topcu
+:date: Jun 10, 2024
+:read-time: 10 min read
+:class-container: sd-p-2 sd-outline-muted sd-rounded-1
+```
+
+{bdg-warning}`warning`
 
 Ephemeral storage refers to temporary, short-lived storage that exists only for the duration of a specific process or container's lifecycle. In containerized environments, such as Kubernetes, on-disk files inside the containers are considered ephemeral. You can create and modify these files but can't preserve when the container is deleted or removed from the node for a reason.
 
@@ -226,35 +236,17 @@ Ephemeral storage provides dynamic solutions to challenges like data persistence
 
 In your Kubernetes journey, these hands-on experiences and insights serve as valuable tools. Remember, the ability to navigate ephemeral storage nuances not only prepares you for exams but also equips you to tackle real-world challenges in deploying scalable, resilient, and efficient applications in Kubernetes.
 
-<br>
 
-**Did you learn something today?**
+<!-- <p id="quote-container"> </p> -->
 
+👉 For a wealth of knowledge, check our blog archives.
+Happy reading! 📚✨
 
 
 <div style="text-align: center;">
-  <h2>Share this article on socials 🐶 👍</h2>
+  <h2>Did you like kuberada? 🐶 </h2>
 </div>
 
 <br>
 
-<br>
-
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-auto">
-      <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://kuberada.devtechops.dev/blogs/ckad/ephemeral-storage-handson/ephemeral-storage-handson.html&title=Ephemeral Storage: A Hands-On Guide with emptyDir, ConfigMap, and Secret in Kubernetes&summary=Ephemeral storage refers to temporary, short-lived storage that exists only for the duration of a specific process or container's lifecycle. In containerized environments, such as Kubernetes, on-disk files inside the containers are considered ephemeral. You can create and modify these files but can't preserve when the container is deleted or removed from the node for a reason.&source=YourarticleSource" target="_blank">
-  <img class="icon" src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/socials/linkedin.png" alt="LinkedIn Icon" style="width: 60px; height: 60px; class="img-fluid"">
-  <!-- <span class="text">Share on Linkedin</span> -->
-</a>
-    </div>
-    <div class="col-auto">
-      <a href> <img class="icon" src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/socials/x.jpg" alt="x Icon" style="width: 60px; height: 60px; class="img-fluid""></a>
-    </div>
-    <div class="col-auto">
-      <a href> <img class="icon" src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/socials/ig.png" alt="x Icon" style="width: 60px; height: 60px; class="img-fluid""></a>    
-    </div>
-  </div>
-</div>
-
-<br>
+<div class="sharethis-inline-reaction-buttons"></div>

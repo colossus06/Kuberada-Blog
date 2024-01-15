@@ -1,9 +1,10 @@
 # Kubernetes
 
-
-🚀 **Getting Started with Kubernetes: Your Favorite Environments Guide**
+🚀 **Getting Started with Kubernetes**
 
 So, you're ready to dive into the world of Kubernetes but unsure where to start? Fear not! We've got you covered with a beginner-friendly guide using our favorite environments – Minikube, k3d, and Vagrant. Whether you prefer to keep it local or venture into the cloud with a Codespace environment, we've got options for everyone.
+
+## Your Favorite Environments Guide
 
 ### 1. **Minikube: Quick and Simple**
 
