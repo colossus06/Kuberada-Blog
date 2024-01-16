@@ -47,7 +47,7 @@ Enjoy the simplicity of k3d, which provides a fast and lightweight Kubernetes en
 For those who prefer a more customizable setup, Vagrant is the way to go. You can choose between a 3-node or 6-node local setup for a more realistic cluster experience:
 
 We have setup a 3 node cluster for simple three tier applications and development purposes.
-Check Kuberada labs repo for 3-node cluster Vagrantfile setup [here](https://github.com/kuberada/kuberada-labs/tree/main/getting-started/k8s/3-node).
+Check Kuberada labs repo for 3-node cluster Vagrantfile setup [here](https://github.com/colossus06/kuberada-labs/tree/main/getting-started/k8s/3-node).
 
 ```bash
 # Install Vagrant (if not already installed)
@@ -61,7 +61,7 @@ vagrant up 3-node
 **6-node**
 
 We have a 6 node vagrant setup for distributed applications, microservices exploration.
-Check Kuberada labs repo for 6-node cluster setup [here](https://github.com/kuberada/kuberada-labs/tree/main/getting-started/k8s/6-node). 
+Check Kuberada labs repo for 6-node cluster setup [here](https://github.com/colossus06/kuberada-labs/tree/main/getting-started/k8s/6-node). 
 
 ```sh
 # 6-node setup
@@ -79,7 +79,7 @@ Prefer to keep it cloud-native? Utilize a Codespace environment with the followi
 
 We have a kubernetes cluster created with k3d. Container runtime used by the node is containerd and the version of k8s is `v1.27` with 4 cores, 16 GB RAM, 32 GB storage.
 
-Check Kuberada labs repo for 6-node cluster setup [here](https://github.com/kuberada/kuberada-labs/tree/main/getting-started/k8s/k3d-codespace).
+Check Kuberada labs repo for 6-node cluster setup [here](https://github.com/colossus06/kuberada-labs/tree/main/getting-started/k8s/k3d-codespace).
 
 
 Clone your Kubernetes project into the Codespace and run:

@@ -22,7 +22,14 @@ myst:
 :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 ```
 
-<!-- {bdg-warning}`warning` -->
+🏷️**Tagged with:**
+
+```{button-link} ../../../blogs/tag/kubernetes.html
+:color: success
+:outline:
+:shadow:
+kubernetes
+```
 
 Ephemeral storage refers to temporary, short-lived storage that exists only for the duration of a specific process or container's lifecycle. In containerized environments, such as Kubernetes, on-disk files inside the containers are considered ephemeral. You can create and modify these files but can't preserve when the container is deleted or removed from the node for a reason.
 

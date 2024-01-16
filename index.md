@@ -33,10 +33,16 @@ We understand the importance of practical experience in mastering the intricacie
 
 </br>
 
-```{include} blogs/ckad/ckad-collection.md
-```
+:::{card}
 
-<!-- {ref}`devops` -->
+{ref}`architecture`.
+:::
+
+
+:::{card}
+
+{ref}`ephemeral`.
+:::
 
 
 
