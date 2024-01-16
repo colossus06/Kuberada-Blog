@@ -14,16 +14,18 @@ Make it a habit to frequently visit the blog to ensure you don't overlook high-q
 
 </br>
 
+::::{card-carousel} 2
 :::{card}
 :img-top: og/architecture.png
 {ref}`architecture`
+^^^
 :::
-
-
 :::{card}
 :img-top: og/ephemeral2.png
 {ref}`ephemeral`
+^^^
 :::
+::::
 
 ## Kubernetes and DevOps Labs
 
