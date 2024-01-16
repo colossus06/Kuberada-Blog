@@ -15,7 +15,7 @@ myst:
 ```{article-info}
 :avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/gulcan-topcu.png
 :avatar-link: ../../../blogs/authors/gulcan.html
-:avatar-outline: muted
+:avatar-outline:
 :author: Gulcan Topcu
 :date: Jun 10, 2024
 :read-time: 10 min read

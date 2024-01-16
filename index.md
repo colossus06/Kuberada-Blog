@@ -10,6 +10,21 @@ Kuberada serves as a collaborative blog platform where you can explore and engag
 Make it a habit to frequently visit the blog to ensure you don't overlook high-quality, hands-on articles in your area of interest.
 
 
+## Latest Blogs 👁‍🗨🗒
+
+</br>
+
+:::{card}
+:img-top: og/architecture.png
+{ref}`architecture`
+:::
+
+
+:::{card}
+:img-top: og/ephemeral2.png
+{ref}`ephemeral`
+:::
+
 ## Kubernetes and DevOps Labs
 
 We understand the importance of practical experience in mastering the intricacies of modern technologies. That's why we've curated a series of labs, accompanied by detailed write-ups and code repositories, to guide you through real-world scenarios and challenges we present in the articles.
@@ -28,21 +43,6 @@ We understand the importance of practical experience in mastering the intricacie
 
 
 </br>
-
-## Latest Blogs 👁‍🗨🗒
-
-</br>
-
-:::{card}
-
-{ref}`architecture`.
-:::
-
-
-:::{card}
-
-{ref}`ephemeral`.
-:::
 
 
 
