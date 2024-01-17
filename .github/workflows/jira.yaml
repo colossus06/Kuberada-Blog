@@ -17,4 +17,4 @@ jobs:
           jiraHost: ${{ secrets.JIRA_HOST }}
           jiraUsername: ${{ secrets.JIRA_AUTH_EMAIL }}
           jiraPassword: ${{ secrets.JIRA_AUTH_TOKEN }} # See https://id.atlassian.com/manage/api-tokens
-          project: PROJECTKEY
+          project: ${{ secrets.PK }}
