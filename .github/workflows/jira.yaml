@@ -12,9 +12,9 @@ jobs:
         uses: atsushii/github-issue-to-jira@v1
         with:
           github-owner: ${{ github.repository_owner }}
-          github-repo: ${{ github.repository }}
+          github-repo: kuberada-blog
           github-token: ${{ secrets.GITHUB_TOKEN }} # read/write authorized token
-          jira-hostname: hostname # Your Sync dest Jira hostname
+          jira-hostname: https://devtechops.atlassian.net/ # Your Sync dest Jira hostname
           jira-auth-token: ${{ secrets.JIRA_AUTH_TOKEN }} # Your Jira auth token
           jira-auth-email: ${{ secrets.JIRA_AUTH_EMAIL }} # email same as jira project creator
           jira-project-key: ${{ secrets.PK }} # Your Sync dest Jira project name
