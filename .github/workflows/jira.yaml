@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sync Github Issues to Jira
-        uses: jordansilva/github-action-issue-to-jira@v1.1.2
+        uses: mheap/github-action-issue-to-jira@v1
         env:
           GITHUB_TOKEN: ${{ secrets.JIRA_TOKEN}}
         with:
@@ -18,3 +18,4 @@ jobs:
           jiraUsername: ${{ secrets.JIRA_AUTH_EMAIL }}
           jiraPassword: ${{ secrets.JIRA_AUTH_TOKEN }} # See https://id.atlassian.com/manage/api-tokens
           project: kuberada-blog
+          assignee: colossus06
