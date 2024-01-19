@@ -57,19 +57,30 @@ html_favicon = 'images/favicon.png'
 
 copyright = "2024, kuberada"
 
-html_logo= "images/kuberada.png"
+# html_logo= "images/kuberada.png"
 
-
+# html_additional_pages = {"index": "your-custom-landing-page.html"}
 
 html_theme = 'furo'
 html_static_path = ['_static']
 
 html_css_files = ["css/custom.css"]
 
+# pygments_style = "sphinx"
+# pygments_dark_style = "monokai"
 
 
 html_theme_options = {
-    'navigation_with_keys': True
+    "top_of_page_button": "None",
+    'navigation_with_keys': True,
+    "announcement": "Kuberada 💛 Hands-on Only 🏭",
+    "light_css_variables": {
+        # "font-stack": "Ubuntu, sans-serif",
+        # "font-stack--monospace": "Oswald, monospace",
+        "color-brand-primary": "#3094CB",
+        "color-brand-content": "orange",
+        "color-admonition-background": "#FFF7D7",
+    },
 }
 
 html_js_files = [

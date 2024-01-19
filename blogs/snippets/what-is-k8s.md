@@ -1,9 +1,16 @@
 (what-is-k8s)=
 
-![](blogs/snippets/assets/k8s.png)
+<!-- ![](blogs/snippets/assets/k8s.png) -->
 
-K8s, the rockstar of the tech world, is the shorthand term for Kubernetes – the ultimate multitasker for managing containerized applications.
+<!-- ```{image} blogs/snippets/assets/k8s.png
+:alt: k8s
+:width: 400px
+:align: center
+``` -->
 
-It simplifies the deployment, scaling, and management of containerized applications, offering unparalleled flexibility and efficiency in the dynamic world of cloud computing. 
+K8s, is the shorthand term for Kubernetes – the ultimate multitasker for managing containerized applications.
 
-Unlock the full potential of your infrastructure with K8s with Kuberada blog and labs.
+It simplifies the deployment, scaling, and management of containerized applications when it is the right solution. 
+We are studying for CKA and CKAD (CKS needs to wait for now 🐲). 
+
+That brings us to the conclusion that we will work on a lot of K8s hands-on articles. Some will be production use cases, real world scenarios and some will be domain focused.

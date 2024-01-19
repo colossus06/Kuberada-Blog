@@ -8,7 +8,7 @@
 
 /* Main font used throughout the docs. */
 body {
-  background-color: rgb(250, 250, 255);
+  background-color: rgb(253, 253, 255);
   margin: 2rem;
   
   /* display: flex;
@@ -78,3 +78,14 @@ p, li, td, th, strong, em, b, i, a {
 .bg-primary {
   margin-bottom: 3rem;
 }
+
+/* .authork {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  z-index: 1;
+  padding: 20px; /* Add padding for content */
+}
+
+.authork:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} */

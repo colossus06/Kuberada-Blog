@@ -3,14 +3,50 @@
 % You can adapt this file completely to your liking, but it should at least
 % contain the root `toctree` directive.
 
-# Kuberada Hands-on Learning!
+# welcome
 
-Kuberada serves as a collaborative blog platform where you can explore and engage in hands-on activities related to DevOps, Kubernetes, Linux, and scripting. 
+Hey DevOps enthusiast and Kubernetes explorer ♫₊˚.🎧 ✩｡
 
-Make it a habit to frequently visit the blog to ensure you don't overlook high-quality, hands-on articles in your area of interest.
+You've stumbled upon a gold mine 🏆
+
+🏍️ Get ready to level up your skills effortlessly!
+
+**why Kuberada?**
+
+We are working on real projects together. So why not add blogging to this?
+
+We want to help people understand and practice complex things easily?
+
+**⚙️ What to Expect:**
+
+- Real Projects, Real Solutions✔
+- Simplified Daily DevOps Challenges✔
+- Hands-On Learning with Kubernetes, Linux, and Scripting✔
 
 
-## Latest Blogs 👁‍🗨🗒
+<!-- :::{card} 
+:link-type: ref
+:img-top: og/architecture.png
+:shadow: lg
+:margin: 5
+:width: 75%
+:text-align: center
+{ref}`architecture`
++++
+:::
+
+:::{card} 
+:link-type: ref
+:img-top: og/architecture.png
+:shadow: lg
+:margin: 5
+:width: 75%
+:text-align: center
+{ref}`architecture`
++++
+::: -->
+
+## Latest Blogs 🦋⃤♡⃤🌈⃤
 
 </br>
 
@@ -27,10 +63,6 @@ Make it a habit to frequently visit the blog to ensure you don't overlook high-q
 :::
 ::::
 
-## Kubernetes and DevOps Labs
-
-We understand the importance of practical experience in mastering the intricacies of modern technologies. That's why we've curated a series of labs, accompanied by detailed write-ups and code repositories, to guide you through real-world scenarios and challenges we present in the articles.
-
 
 ### what is k8s?
 
@@ -43,9 +75,10 @@ We understand the importance of practical experience in mastering the intricacie
 ```{include} blogs/snippets/what-is-devops.md
 ```
 
+### a note on python
 
-</br>
-
+```{include} blogs/snippets/python-and-devops.md
+```
 
 
 ```{toctree}
@@ -57,12 +90,12 @@ blogs/get-started/kuberada
 
 ```
 
-```{toctree}
+<!-- ```{toctree}
 :caption: Blogs by Domains
 :hidden:
 blogs/ckad/ckad-collection
 blogs/devops/devops-collection
-```
+``` -->
 
 </br>
 
@@ -90,8 +123,6 @@ blogs/authors/gulcan.md
 ``` -->
 
 
-</br>
-
 ```{toctree}
 :caption: About
 :hidden:
@@ -99,14 +130,12 @@ about.md
 
 ```
 
-#### 🚧 **Under Construction** 🚧
+#### **🙌 do you want to contribute** 
 
-We're working hard to bring you an even better blogging experience! Our site is currently undergoing maintenance, and some features may be temporarily unavailable.
+Check out our [github repo](https://github.com/colossus06/kuberada-blog) for issues labelled with `contribute` or `blog` 🧱
 
-Estimated completion: After clearing CKAD :)...
+Follow us for updates on [github](https://github.com/colossus06)!
 
-Follow us for updates!
-
-```{admonition} warning ⚠
-  This blog is under construction
-```
+<!-- ```{admonition} Estimated completion
+  1 April
+``` -->

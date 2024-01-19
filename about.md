@@ -4,17 +4,14 @@ Hi 👋
 
 We're a DevOps duo passionate about automation, scripting, and addressing real-world challenges. 
 
-*Our therapy* involves crafting solutions and sharing insights through writing✍.
-
+*Our therapy* is crafting solutions and sharing insights through writing.
 
 **What Drives Us:**
 
-- **Automation Enthusiasts:** Streamlining processes and enhancing efficiency through automation.
-
-- **DevOps Advocates:** Bridging the gap between development and operations seamlessly.
-
-- **DevSecOps Champions:** Embedding security into the core of our DevOps practices.
-- **Kubernetes Navigators:** Sailing through container orchestration challenges with Kubernetes.
+- **Automation:** Automate whenever you can.
+- **DevOps:** The glue between the development and operations.
+- **DevSecOps:** The host is always security.
+- **Kubernetes:** If the solution is Kubernetes, we love challenges.
 
 
 Join us on this journey of continuous learning.
