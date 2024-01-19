@@ -17,5 +17,5 @@ jobs:
           jiraHost: ${{ secrets.JIRA_HOST }}
           jiraUsername: ${{ secrets.JIRA_AUTH_EMAIL }}
           jiraPassword: ${{ secrets.JIRA_AUTH_TOKEN }} # See https://id.atlassian.com/manage/api-tokens
-          project: kuberada-blog
+          project: KB
           assignee: colossus06
