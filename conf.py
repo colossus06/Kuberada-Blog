@@ -77,9 +77,14 @@ html_theme_options = {
     "light_css_variables": {
         # "font-stack": "Ubuntu, sans-serif",
         # "font-stack--monospace": "Oswald, monospace",
-        "color-brand-primary": "#3094CB",
-        "color-brand-content": "orange",
-        "color-admonition-background": "#FFF7D7",
+        "color-brand-primary": "#21209C",
+        "color-brand-content": "#FF8400"
+    },
+    "dark_css_variables": {
+        # "font-stack": "Ubuntu, sans-serif",
+        # "font-stack--monospace": "Oswald, monospace",
+        "color-brand-primary": "#FFED00",
+        "color-brand-content": "#10CD23"
     },
 }
 
