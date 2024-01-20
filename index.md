@@ -57,7 +57,7 @@ We want to help people understand and practice complex things easily?
 ^^^
 :::
 :::{card}
-:img-top: og/ephemeral2.png
+:img-top: og/ephemeral.png
 {ref}`ephemeral`
 ^^^
 :::

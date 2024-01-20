@@ -4,10 +4,10 @@ myst:
     "description lang=en": "About Kuberada. Hands-on Kubernetes, Devops, python blog"
     "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, ephemeral-storage, emptydir"
     "property=og:locale": "en_US"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral2.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral2.png" alt="ephemeral" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral.png" alt="ephemeral" class="bg-primary">
 
 (ephemeral)=
 # 🧸 Ephemeral Storage: A Hands-On Guide with emptyDir, ConfigMap, and Secret in Kubernetes

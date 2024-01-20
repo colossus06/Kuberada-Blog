@@ -9,7 +9,7 @@
 ^^^
 :::
 :::{card}
-:img-top: ../../og/ephemeral2.png
+:img-top: ../../og/ephemeral.png
 {ref}`ephemeral`
 ^^^
 :::
