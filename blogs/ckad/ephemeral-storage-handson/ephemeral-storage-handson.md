@@ -13,7 +13,7 @@ myst:
 # 🧸 Ephemeral Storage: A Hands-On Guide with emptyDir, ConfigMap, and Secret in Kubernetes
 
 ```{article-info}
-:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/gulcan-topcu.png
+:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
 :avatar-link: ../../../blogs/authors/gulcan.html
 :author: Gulcan Topcu
 :date: Jun 10, 2024

@@ -33,7 +33,7 @@ copyright = "2024, Kuberada"
 author = "Gulcan Topcu"
 ogp_site_url = "https://devtechops.dev/"
 ogp_type = "article"
-ogp_image = "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kuberada.png"
+ogp_image = "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/images/logo.png"
 
 
 templates_path = ['_templates']
@@ -57,7 +57,7 @@ html_favicon = 'images/favicon.png'
 
 copyright = "2024, kuberada"
 
-# html_logo= "images/kuberada.png"
+html_logo= "images/logo.png"
 
 # html_additional_pages = {"index": "your-custom-landing-page.html"}
 

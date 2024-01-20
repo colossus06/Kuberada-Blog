@@ -15,7 +15,7 @@ myst:
 # 🔩 Understanding Architecture of a Kubernetes Cluster⚙️ 
 
 ```{article-info}
-:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/gulcan-topcu.png
+:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
 :avatar-link: ../../../blogs/authors/gulcan.html
 :author: Gulcan Topcu
 :date: Jun 14, 2024
@@ -35,7 +35,7 @@ kubernetes
 Kubernetes, an open-source container orchestration platform, has transformed the landscape of deploying and managing containerized applications. To harness its power effectively, it's crucial to comprehend the architecture that underpins its scalability and fault-tolerance. Let's navigate through the key components that makes up the Kubernetes architecture.
 
 
-## Whay does it called K8s?
+## Why does it called K8s?
 
 The number "8" in "K8s" represents the eight letters between "K" and "s" in the word "Kubernetes." So we can say that "K8s" is a shorthand way of referring to Kubernetes. 
 
