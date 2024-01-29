@@ -1,0 +1,36 @@
+{# your_custom_template.html #}
+
+{% extends "!layout.html" %}
+
+{%- block extrahead %}
+{{ super }}
+
+    <script type="text/javascript" src="../_static/js/activate.js"></script>
+
+    <script type="text/javascript" src="../_static/js/share.js"></script>
+
+    <script type="text/javascript" src="../_static/js/react.js"></script>
+
+    <!-- <script type="text/javascript" src="../_static/js/joke.js"></script> -->
+
+{% endblock %}
+
+
+{%- block extrafooter %}
+{{ super }}
+<div class="bottom-of-page">
+    <div class="left-details">
+      <div class="copyright">
+          Copyright © 
+      </div>
+      Made with  💘
+      
+    </div>
+    <div class="right-details">
+      
+    </div>
+  </div>
+{% endblock %}
+
+
+{% set css_files = css_files + ['_static/custom.css'] %}

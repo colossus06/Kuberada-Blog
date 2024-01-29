@@ -14,12 +14,12 @@
 html_title = 'Kuberada Blog'
 
 project = 'kuberada-Hands-on Learning'
-# copyright = '2024, kuberada'
-author = 'kuberada'
 # release = '2024'
 
+html_show_copyright=True
+html_show_sourcelink = False
 
-
+html_show_sphinx = False
 
 extensions = [ 
     "myst_parser",
@@ -29,7 +29,7 @@ extensions = [
 
 
 # -- Project information
-copyright = "2024, Kuberada"
+# copyright = "2024, Kuberada"
 author = "Gulcan Topcu"
 ogp_site_url = "https://devtechops.dev/"
 ogp_type = "article"
@@ -39,6 +39,7 @@ ogp_image = "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/ima
 templates_path = ['_templates']
 
 exclude_patterns = [
+    "venv",
     "_build",
     "Thumbs.db",
     ".DS_Store",
@@ -55,23 +56,17 @@ html_favicon = 'images/favicon.png'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-copyright = "2024, kuberada"
+copyright = "2024, Kuberada. All rights reserved"
 
 html_logo= "images/logo.png"
-
-# html_additional_pages = {"index": "your-custom-landing-page.html"}
 
 html_theme = 'furo'
 html_static_path = ['_static']
 
 html_css_files = ["css/custom.css"]
 
-# pygments_style = "sphinx"
-# pygments_dark_style = "monokai"
-
 
 html_theme_options = {
-    "top_of_page_button": "None",
     'navigation_with_keys': True,
     "announcement": "Kuberada 💛 Hands-on Only 🏭",
     "light_css_variables": {
@@ -118,7 +113,5 @@ html_context = {
     "default_mode": "light"
 }
 
-html_show_sourcelink = False
 
-html_show_sphinx = False
 master_doc = 'index'

@@ -1,6 +1,6 @@
 {# your_custom_template.html #}
 
-{% extends "!layout.html" %}
+{% extends "!base.html" %}
 
 {%- block extrahead %}
 {{ super }}
@@ -14,5 +14,17 @@
     <!-- <script type="text/javascript" src="../_static/js/joke.js"></script> -->
 
 {% endblock %}
+
+
+{%- block extrafooter %}
+{{ super }}
+
+<div class="left-details">
+    Made with 
+    <a href="https://github.com/pradyunsg/furo">sagfsdgdfh</a>
+    
+  </div>
+{% endblock %}
+
 
 {% set css_files = css_files + ['_static/custom.css'] %}

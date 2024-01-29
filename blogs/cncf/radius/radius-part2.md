@@ -1,4 +1,4 @@
-# Getting started with Radius: Run your first app #
+# Getting started with Radius: Run your first app
 
 This guide will show you how to quickly get started with Radius. You’ll walk through both installing Radius and running your first Radius app.
 
