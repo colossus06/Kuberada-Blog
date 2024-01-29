@@ -1,8 +1,5 @@
-/* .bottom-of-page {
-    visibility: hidden;
-} */
-
-
-/* body {
-    background-color: aqua;
-} */
+footer {
+    text-align: center;
+    padding: 20px; /* Add padding for better visibility, adjust as needed */
+    margin: 4rem;
+}
