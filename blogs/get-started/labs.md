@@ -6,14 +6,20 @@ Kuberada Labs are now not just on our blog but also on GitHub. Explore hands-on 
 ## GitHub Repository
 
 
-**Navigate to the github repo here** 👇
+**Find the labs here** 👇
 
-<a class="btn btn-success btn-lg" href="https://github.com/colossus06/kuberada-labs" role="button">kuberada labs</a>
+```{button-link} https://github.com/kuberada/kuberada-labs
+:color: success
+Kuberada labs
+```
 
 ## Killerkoda scenarios
 
 **Navigate to killerkoda scenarios here** 👇
 
-<a class="btn btn-success btn-lg" href="https://killercoda.com/kuberada" role="button">kuberada labs</a>
+```{button-link} https://killercoda.com/kuberada
+:color: success
+Killerkoda CKA/CKAD Scenarios
+```
 
 ![](../../og/killerkoda-kuberada.gif)

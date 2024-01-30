@@ -4,10 +4,10 @@ myst:
     "description lang=en": "About Kuberada. Hands-on Kubernetes, Devops, python blog"
     "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, ephemeral-storage, emptydir"
     "property=og:locale": "en_US"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral-storage.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral.png" alt="ephemeral" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral-storage.png" alt="ephemeral" class="bg-primary">
 
 (ephemeral)=
 # 🧸 Ephemeral Storage: A Hands-On Guide with emptyDir, ConfigMap, and Secret in Kubernetes
@@ -16,7 +16,7 @@ myst:
 :avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
 :avatar-link: ../../../blogs/authors/gulcan.html
 :author: Gulcan Topcu
-:date: Jun 10, 2024
+:date: Jan 10, 2024
 :read-time: 10 min read
 :class-container: sd-p-2 sd-outline-light sd-rounded-2 sd-shadow-md
 ```
@@ -75,9 +75,12 @@ Before starting off with the hands-on section, remember that you can find the ma
   The solution for this task can be found in the [blog's repository](https://github.com/kuberada/kuberada-labs/tree/main/storage-ephemeral). Clone the repo and change directory into storage-ephemeral. Explore the repository to review the codes and files associated with it if you're encountering this task for the first or second time. Remember to attempt solving it without referring to the codes in the repository afterward.
 ```
 
-**Navigate to the labs here** 👇
+**Find the labs here** 👇
 
-<a class="btn btn-success btn-lg" href="https://github.com/kuberada/kuberada-labs" role="button">kuberada labs</a>
+```{button-link} https://github.com/kuberada/kuberada-labs
+:color: success
+Kuberada labs
+```
 
 <!-- ## [Hands-on Part]{.bg-warning} -->
 ## Hands-on With Ephemeral Storage in Kubernetes

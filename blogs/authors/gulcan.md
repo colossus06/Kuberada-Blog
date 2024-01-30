@@ -2,14 +2,36 @@
 :orphan:
 # Read more from your favourite author
 
+
+::::{card-carousel} 1
+:::{card}
+:img-top: ../../og/istio.png
+{ref}`istio`
+^^^
+:::
+::::
+
 ::::{card-carousel} 2
 :::{card}
-:img-top: ../../og/architecture.png
+:img-top: ../../og/gitlab-container-registry.png
+{ref}`container-registry`
+^^^
+:::
+:::{card}
+:img-top: ../../og/gitlab-container-registry.png
+{ref}`gitlab-runner`
+^^^
+:::
+::::
+
+::::{card-carousel} 2
+:::{card}
+:img-top: ../../og/kubernetes-architecture.png
 {ref}`architecture`
 ^^^
 :::
 :::{card}
-:img-top: ../../og/ephemeral.png
+:img-top: ../../og/ephemeral-storage.png
 {ref}`ephemeral`
 ^^^
 :::

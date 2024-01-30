@@ -39,6 +39,7 @@ ogp_image = "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/ima
 templates_path = ['_templates']
 
 exclude_patterns = [
+    "tracking/**",
     "venv",
     "_build",
     "Thumbs.db",
@@ -73,13 +74,14 @@ html_theme_options = {
         # "font-stack": "Ubuntu, sans-serif",
         # "font-stack--monospace": "Oswald, monospace",
         "color-brand-primary": "#21209C",
-        "color-brand-content": "#FF8400"
+        "color-brand-content": "#570234"
     },
     "dark_css_variables": {
         # "font-stack": "Ubuntu, sans-serif",
         # "font-stack--monospace": "Oswald, monospace",
-        "color-brand-primary": "#FFED00",
-        "color-brand-content": "#10CD23"
+        "color-brand-primary": "#F0CF3B",
+        "color-brand-content": "#21BD79" 
+        # #10CD23
     },
 }
 

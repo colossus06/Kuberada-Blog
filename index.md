@@ -1,7 +1,5 @@
 % ckad-devops documentation master file, created by
 % sphinx-quickstart on Mon Jan  1 23:06:34 2024.
-% You can adapt this file completely to your liking, but it should at least
-% contain the root `toctree` directive.
 
 # welcome
 
@@ -50,14 +48,36 @@ We want to help people understand and practice complex things easily?
 
 </br>
 
+
+::::{card-carousel} 1
+:::{card}
+:img-top: og/istio.png
+{ref}`istio`
+^^^
+:::
+::::
+
 ::::{card-carousel} 2
 :::{card}
-:img-top: og/architecture.png
+:img-top: og/gitlab-container-registry.png
+{ref}`container-registry`
+^^^
+:::
+:::{card}
+:img-top: og/gitlab-runner.png
+{ref}`gitlab-runner`
+^^^
+:::
+::::
+
+::::{card-carousel} 2
+:::{card}
+:img-top: og/kubernetes-architecture.png
 {ref}`architecture`
 ^^^
 :::
 :::{card}
-:img-top: og/ephemeral.png
+:img-top: og/ephemeral-storage.png
 {ref}`ephemeral`
 ^^^
 :::
@@ -111,8 +131,11 @@ blogs/get-started/labs
 ```{toctree}
 :caption: Latest Blogs
 :hidden:
-blogs/ckad/architecture/architecture.md
-blogs/ckad/ephemeral-storage-handson/ephemeral-storage-handson.md
+blogs/k8s/istio/istio.md
+blogs/devops/gitlab-registry/gitlab-registry-buildx.md
+blogs/devops/gitlab-runner/gitlab-runner.md
+blogs/k8s/architecture/architecture.md
+blogs/k8s/ephemeral-storage-handson/ephemeral-storage-handson.md
 ```
 
 <!-- </br>
