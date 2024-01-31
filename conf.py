@@ -23,7 +23,7 @@ html_show_sphinx = False
 
 extensions = [ 
     "myst_parser",
-    "sphinxext.opengraph",
+    # "sphinxext.opengraph",
     "sphinx_design"
 ]
 
