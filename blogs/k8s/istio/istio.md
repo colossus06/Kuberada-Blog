@@ -5,8 +5,8 @@ myst:
     "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, istio, kube-proxy, grafana, prometheus, k3d, istioctl"
     "property=og:locale": "en_US"
     "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/istio.png"
-    # "property=og:url": "https://devtechops.dev/blogs/k8s/istio/istio.html"
 ---
+
 <img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/istio.png" alt="istio" class="bg-primary">
  
 (istio)=
@@ -35,14 +35,13 @@ In the dynamic world of microservices, orchestrating, securing, and monitoring s
 ## In This Article:
 
 1. Install Istio Components
-    * [Using istioctl](#option-1-installing-istio-with-istioctl)
-    * [Using Helm](#option-2-installing-istio-with-helm)
-2. [Enable Automatic Istio Sidecar Injection](#step-2-enable-automatic-istio-sidecar-injection)
-3. [Validate Istio-Proxy Sidecar Injection](#step-3-validate-istio-proxy-sidecar-injection)
-4. [Explore Pod Communication](#step-4-explore-current-pod-communication)
-5. [Pod Communication Using Service Mesh](#step-5-pod-communication-using-service-mesh)
-6. [Monitor Service Mesh with Prometheus and Grafana](#step-6-monitor-service-mesh-using-prometheus-and-grafana)
-7. [References](#references)
+    * Using istioctl
+    * Using Helm
+2. Enable Automatic Istio Sidecar Injection
+3. Validate Istio-Proxy Sidecar Injection
+4. Explore Pod Communication
+5. Pod Communication Using Service Mesh
+6. Monitor Service Mesh with Prometheus and Grafana
 
 ## Option 1: Installing Istio with `istioctl`
 

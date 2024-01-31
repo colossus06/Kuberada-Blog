@@ -36,9 +36,9 @@ Did you happen to receive an email notification from GitLab starting with "names
 
 **In this page**
 
-- [GitLab Runner types?](#gitlab-runner-types)
-- [Locating GitLab Runner](#locating-gitlab-runner)
-- [Step-by-step installation guide](#step-by-step-installation-guide)
+- GitLab Runner types?
+- Locating GitLab Runner
+- Step-by-step installation guide
 
 ## GitLab Runner Types
 
@@ -101,11 +101,10 @@ Provide a name for the runner (e.g., `<your-name>`) and choose the executor as "
 
 **Expected output:**
 
-```powershell
 Runner registered successfully. Feel free to start it, but if it's running already, the config should be automatically reloaded!
 
 Configuration (with the authentication token) was saved in "C:\\GitLab-Runner\\config.toml"
-```
+
 
 ## Activating Runner
 

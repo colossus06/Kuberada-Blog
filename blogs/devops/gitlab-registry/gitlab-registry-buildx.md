@@ -32,9 +32,9 @@ devops
 In this article, we'll guide you through the process of getting started with GitLab Container Registry using the powerful `buildx` tool. Follow the steps below to locate the container registry, authenticate securely, and build your Docker image.
 
 ## Table of Contents
-- [Locating Container Registry](#locating-container-registry)
-- [Authenticating to the Registry](#authenticating-to-the-registry)
-- [Tagging and Building the Image using Buildx](#tagging-and-building-the-image-using-buildx)
+- Locating Container Registry
+- Authenticating to the Registry
+- Tagging and Building the Image using Buildx
 
 ## Locating Container Registry
 
@@ -92,7 +92,7 @@ tag=registry.gitlab.com/<gitlab-username>/<project-name>
 
 ### Why Buildx?
 
-GitLab recommends using `buildx` for building container images due to its enhanced features and capabilities compared to the traditional `build` command. You can read more on multi-platform images using buildx [here](assets/https://docs.docker.com/build/building/multi-platform/). Let's take a look at how to properly tag the image for pushing.
+GitLab recommends using `buildx` for building container images due to its enhanced features and capabilities compared to the traditional `build` command. You can read more on multi-platform images using buildx [here](https://docs.docker.com/build/building/multi-platform/). Let's take a look at how to properly tag the image for pushing.
 
 ### What is a Builder?
 
