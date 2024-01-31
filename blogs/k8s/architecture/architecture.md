@@ -6,10 +6,10 @@ myst:
     "property=og:locale": "en_US"
     "property=og:type" : "article"
     "property=og:title" : "Understanding Architecture of a Kubernetes Cluster"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/architecture.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kubernetes-architecture.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/architecture.png" alt="k8s-architecture" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kubernetes-architecture.png" alt="k8s-architecture" class="bg-primary">
 
 (architecture)=
 # 🔩 Understanding Architecture of a Kubernetes Cluster⚙️ 
