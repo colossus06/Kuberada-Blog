@@ -1,12 +1,16 @@
 ---
 myst:
   html_meta:
-    "description lang=en": "About Kuberada. Hands-on Kubernetes, Devops, python blog"
+    "description lang=en": "Understanding Architecture of a Kubernetes Cluster"
     "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, kubernetes architecture, control plane components, worker node components"
     "property=og:locale": "en_US"
     "property=og:type" : "article"
     "property=og:title" : "Understanding Architecture of a Kubernetes Cluster"
     "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kubernetes-architecture.png"
+    "property=twitter:description" : "Understanding Architecture of a Kubernetes Cluster"
+    "property=twitter:domain" : "devtechops.dev"
+    "property=twitter:title" : "Understanding Architecture of a Kubernetes Cluster"
+    "property=twitter:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kubernetes-architecture.png"
 ---
 
 <img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kubernetes-architecture.png" alt="k8s-architecture" class="bg-primary">
