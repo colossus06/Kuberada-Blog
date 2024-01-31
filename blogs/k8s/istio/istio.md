@@ -5,7 +5,7 @@ myst:
     "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, istio, kube-proxy, grafana, prometheus, k3d, istioctl"
     "property=og:locale": "en_US"
     "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/istio.png"
-    "property=og:url": "https://devtechops.dev/blogs/k8s/istio/istio.html"
+    # "property=og:url": "https://devtechops.dev/blogs/k8s/istio/istio.html"
 ---
 <img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/istio.png" alt="istio" class="bg-primary">
  

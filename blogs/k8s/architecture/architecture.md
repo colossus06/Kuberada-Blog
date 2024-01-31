@@ -7,10 +7,12 @@ myst:
     "property=og:type" : "article"
     "property=og:title" : "Understanding Architecture of a Kubernetes Cluster"
     "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kubernetes-architecture.png"
-    "property=twitter:description" : "Understanding Architecture of a Kubernetes Cluster"
-    "property=twitter:domain" : "devtechops.dev"
+    "property=twitter:site" : "@kgkuberada"
+    "property=twitter:creator" : "@kgkuberada"
     "property=twitter:title" : "Understanding Architecture of a Kubernetes Cluster"
-    "property=twitter:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kubernetes-architecture.png"
+    "property=twitter:card" : "summary_large_image"
+    "property=twitter:image:src" : "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kubernetes-architecture.png"
+    "property=twitter:widgets:new-embed-design" : "on" 
 ---
 
 <img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kubernetes-architecture.png" alt="k8s-architecture" class="bg-primary">

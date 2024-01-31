@@ -23,7 +23,8 @@ html_show_sphinx = False
 
 extensions = [ 
     "myst_parser",
-    # "sphinxext.opengraph",
+    # "sphinx-social-previews",
+    "sphinxext.opengraph",
     "sphinx_design"
 ]
 
@@ -31,14 +32,15 @@ extensions = [
 # -- Project information
 # copyright = "2024, Kuberada"
 author = "Gulcan Topcu"
-# ogp_site_url = "https://devtechops.dev/"
-# ogp_type = "article"
-# ogp_image = "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/images/logo.png"
-
-
-# ogp_social_cards = {
-#     "enable": True
-# }
+ogp_site_url = "https://devtechops.dev/"
+ogp_type = "article"
+ogp_image = "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/images/logo.png"
+ogp_use_first_image= True
+ogp_enable_meta_description=True
+ogp_social_cards = {
+    "enable": True,
+    "font": "Noto Sans CJK JP"
+}
 
 templates_path = ['_templates']
 
