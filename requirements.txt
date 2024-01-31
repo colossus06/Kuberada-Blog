@@ -4,7 +4,7 @@ typing-extensions
 rst-to-myst[sphinx]
 sphinx-autobuild
 furo
-sphinxext-opengraph
+# sphinxext-opengraph
 sphinx-copybutton
 sphinx-design
 

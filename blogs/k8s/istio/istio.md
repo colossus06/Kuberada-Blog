@@ -6,11 +6,9 @@ myst:
     "property=og:locale": "en_US"
     "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/istio.png"
     "property=og:url": "https://devtechops.dev/blogs/k8s/istio/istio.html"
-    "property=og:type": "website" 
 ---
-
 <img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/istio.png" alt="istio" class="bg-primary">
-
+ 
 (istio)=
 # Unlocking Istio's Power: A Step-by-Step Guide to Seamless Microservices Management
 

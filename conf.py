@@ -31,10 +31,14 @@ extensions = [
 # -- Project information
 # copyright = "2024, Kuberada"
 author = "Gulcan Topcu"
-ogp_site_url = "https://devtechops.dev/"
-ogp_type = "article"
-ogp_image = "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/images/logo.png"
+# ogp_site_url = "https://devtechops.dev/"
+# ogp_type = "article"
+# ogp_image = "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/images/logo.png"
 
+
+# ogp_social_cards = {
+#     "enable": True
+# }
 
 templates_path = ['_templates']
 
