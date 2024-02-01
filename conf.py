@@ -11,7 +11,7 @@
 #     # (create a setup() function if you don't already have one;
 #     # or add to the existing setup() ...)
 
-html_title = 'Kuberada Blog'
+html_title = ' '
 
 project = 'kuberada-Hands-on Learning'
 # release = '2024'
@@ -79,14 +79,14 @@ html_theme_options = {
     "light_css_variables": {
         # "font-stack": "Ubuntu, sans-serif",
         # "font-stack--monospace": "Oswald, monospace",
-        "color-brand-primary": "#21209C",
-        "color-brand-content": "#570234"
+        "color-brand-primary": "#270F33",
+        "color-brand-content": "#B1584D"
     },
     "dark_css_variables": {
         # "font-stack": "Ubuntu, sans-serif",
         # "font-stack--monospace": "Oswald, monospace",
-        "color-brand-primary": "#F0CF3B",
-        "color-brand-content": "#21BD79" 
+        "color-brand-primary": "#A73FDB",
+        "color-brand-content": "#FFEBD8" 
         # #10CD23
     },
 }

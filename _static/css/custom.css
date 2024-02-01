@@ -3,3 +3,8 @@ footer {
     padding: 20px; /* Add padding for better visibility, adjust as needed */
     margin: 4rem;
 }
+
+.sidebar-brand-text {
+    visibility: hidden;
+
+}
