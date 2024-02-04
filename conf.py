@@ -34,7 +34,7 @@ extensions = [
 author = "Gulcan Topcu"
 ogp_site_url = "https://devtechops.dev/"
 ogp_type = "article"
-ogp_image = "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/images/logo.png"
+ogp_image = "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/images/mylogo.png"
 ogp_use_first_image= True
 ogp_enable_meta_description=True
 ogp_social_cards = {
@@ -65,7 +65,7 @@ html_favicon = 'images/favicon.png'
 
 copyright = "2024, Kuberada. All rights reserved"
 
-html_logo= "images/logo.png"
+html_logo= "images/mylogo.png"
 
 html_theme = 'furo'
 html_static_path = ['_static']
