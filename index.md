@@ -9,17 +9,11 @@ You've stumbled upon a gold mine 🏆
 
 🏍️ Get ready to level up your skills effortlessly!
 
-**why Kuberada?**
-
-We are working on real projects together. So why not add blogging to this?
-
-We want to help people understand and practice complex things easily?
-
 **⚙️ What to Expect:**
 
-- Real Projects, Real Solutions✔
-- Simplified Daily DevOps Challenges✔
-- Hands-On Learning with Kubernetes, Linux, and Scripting✔
+- Real Kubernetes and CICD Projects, Real Solutions✔
+- Simplified DevOps Challenges✔
+- Hands-On Learning with Kubernetes, Linux system administration, and Scripting✔
 
 
 <!-- :::{card} 
