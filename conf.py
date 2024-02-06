@@ -32,7 +32,7 @@ extensions = [
 # -- Project information
 # copyright = "2024, Kuberada"
 author = "Gulcan Topcu"
-ogp_site_url = "https://devtechops.dev/"
+ogp_site_url = "https://kuberada.devtechops.dev/"
 ogp_type = "article"
 ogp_image = "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/images/mylogo.png"
 ogp_use_first_image= True
@@ -58,7 +58,7 @@ exclude_patterns = [
 ]
 source_suffix = ['.rst', '.md']
 
-html_favicon = 'images/favicon.png'
+html_favicon = 'images/myfavicon.png'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
