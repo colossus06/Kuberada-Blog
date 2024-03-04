@@ -38,12 +38,21 @@ You've stumbled upon a gold mine 🏆
 +++
 ::: -->
 
+
+
+<!-- <img src="https://api.thegreenwebfoundation.org/greencheckimage/kuberada.devtechops.dev?nocache=true" alt="This website is hosted Green - checked by thegreenwebfoundation.org"> -->
+
 ## Latest Blogs 🦋⃤♡⃤🌈⃤
 
 </br>
 
 
-::::{card-carousel} 1
+::::{card-carousel} 2
+:::{card}
+:img-top: og/docker-scout.png
+{ref}`docker-scout`
+^^^
+:::
 :::{card}
 :img-top: og/istio.png
 {ref}`istio`
@@ -125,6 +134,7 @@ blogs/get-started/labs
 ```{toctree}
 :caption: Latest Blogs
 :hidden:
+blogs/devops/docker-scout/docker-scout.md
 blogs/k8s/istio/istio.md
 blogs/devops/gitlab-registry/gitlab-registry-buildx.md
 blogs/devops/gitlab-runner/gitlab-runner.md
