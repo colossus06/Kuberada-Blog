@@ -73,27 +73,9 @@ kubectl get nodes
 
 Vagrant allows you to experiment with different node configurations, providing a scalable environment right on your local machine.
 
-### 4. **Codespace Environment: Cloud-Powered Learning**
-
-Prefer to keep it cloud-native? Utilize a Codespace environment with the following specifications:
-
-We have a kubernetes cluster created with k3d. Container runtime used by the node is containerd and the version of k8s is `v1.27` with 4 cores, 16 GB RAM, 32 GB storage.
-
-Check Kuberada labs repo for 6-node cluster setup [here](https://github.com/colossus06/kuberada-labs/tree/main/getting-started/k8s/k3d-codespace).
-
-
-Clone your Kubernetes project into the Codespace and run:
-
-```bash
-# Set up your Kubernetes environment
-kubectl get nodes
-```
-
-Now you have a cloud-powered Kubernetes environment right at your fingertips.
-
 ### Conclusion:
 
-Whether you're a fan of Minikube, k3d, Vagrant, or Codespaces, we've got a Kubernetes environment tailored to your preferences. Choose the setup that suits your learning style, experiment with basic Kubernetes commands, and get ready to unlock the full potential of container orchestration.
+Whether you're a fan of Minikube, k3d, or Vagrant we've got a Kubernetes environment tailored to your preferences. Choose the setup that suits your learning style, experiment with basic Kubernetes commands, and get ready to unlock the full potential of container orchestration.
 
 Happy Kuberneting! 🌐🚀
 
