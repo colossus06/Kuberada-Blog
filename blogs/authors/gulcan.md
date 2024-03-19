@@ -9,17 +9,12 @@
 {ref}`argo`
 ^^^
 :::
-:::{card}
-:img-top: ../../og/istio.png
-{ref}`istio`
-^^^
-:::
 ::::
 
 ::::{card-carousel} 2
 :::{card}
-:img-top: ../../og/gitlab-container-registry.png
-{ref}`container-registry`
+:img-top: ../../og/istio.png
+{ref}`istio`
 ^^^
 :::
 :::{card}
