@@ -3,7 +3,12 @@
 # Read more from your favourite author
 
 
-::::{card-carousel} 1
+::::{card-carousel} 2
+:::{card}
+:img-top: ../../og/argo.png
+{ref}`argo`
+^^^
+:::
 :::{card}
 :img-top: ../../og/istio.png
 {ref}`istio`

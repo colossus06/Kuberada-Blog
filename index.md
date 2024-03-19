@@ -48,6 +48,15 @@ Get ready to elevate your skills effortlessly! 🏍️
 
 </br>
 
+::::{card-carousel} 2
+:::{card}
+:img-top: og/argo.png
+{ref}`argo`
+^^^
+:::
+
+::::
+
 
 ::::{card-carousel} 2
 :::{card}
@@ -136,6 +145,7 @@ blogs/get-started/labs
 ```{toctree}
 :caption: Latest Blogs
 :hidden:
+blogs/k8s/argocd/argo.md
 blogs/devops/docker-scout/docker-scout.md
 blogs/k8s/istio/istio.md
 blogs/devops/gitlab-registry/gitlab-registry-buildx.md
