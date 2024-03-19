@@ -116,9 +116,9 @@ Congratulations! You've successfully set up ArgoCD on your AKS cluster. Now you 
 
 ![Deploying Applications with ArgoCD](assets/./chrome_BPySmaVXjw.gif)
 
-- See all the code used in this demo in this gist [here](assets/https://gist.github.com/colossus06/19da49118fcb3fc6f28b093a76f3953a).
+- See all the code used in this demo in this gist [here](https://gist.github.com/colossus06/19da49118fcb3fc6f28b093a76f3953a).
 
-- Access the manifests on our kuberada repo [here](assets/https://github.com/colossus06/Kuberada-Blog-Labs/tree/main/argocd)
+- Access the manifests on our kuberada repo [here](https://github.com/colossus06/Kuberada-Blog-Labs/tree/main/argocd)
 
 ![](assets/20240320001020.png)
 
