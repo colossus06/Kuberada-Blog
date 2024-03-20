@@ -63,14 +63,14 @@ You can find all the codes used on the following gist:
 
 ```{button-link} https://gist.github.com/colossus06/d313aff4aefcbf3ffd2cca002de16fed
 :color: success
-ArgoCD Gist 
+Ingress SSL Gist 
 ```
 
 Take a look at the manifest and terraform files I used on this blog:
 
 ```{button-link} https://github.com/colossus06/Kuberada-Blog-Labs/tree/main/nginx-ingress-ssl-cert-manager
 :color: success
-Files 
+Manifest Files 
 ```
 
 Now, let's enable HTTPS for secure access! 
