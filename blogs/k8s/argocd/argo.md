@@ -34,7 +34,20 @@ kubernetes
 
 ArgoCD is a powerful tool that utilizes GitOps principles to automate and streamline your Kubernetes application deployments. It continuously monitors your Git repository, acting as the single source of truth for your desired application state. When it detects a change, ArgoCD controller automatically reconciles the running applications with the configurations in your Git repository, ensuring a consistent and version-controlled deployment process. 
 
-In this guide, I'll walk you through setting up ArgoCD on your AKS cluster to manage deployments of Python applications stored in a private registry. While the demo uses a python flask deployment and service file for illustrative purposes (ingress, external DNS and cert manager is on the way!), you can easily substitute it with the NGINX application manifests on our repo. The deployment YAML for NGINX is provided in a https://gist.github.com/colossus06/19da49118fcb3fc6f28b093a76f3953a for reference. https://github.com/colossus06/Kuberada-Blog-Labs/tree/main/argocd, you can find the nginx manifest files. As a bonus, since the repository is public, you won't need to set up a repository secret in ArgoCD for access. 
+In this guide, I'll walk you through setting up ArgoCD on your AKS cluster to manage deployments of Python applications stored in a private registry. While the demo uses a python flask deployment and service file for illustrative purposes (ingress, external DNS and cert manager is on the way!), you can easily substitute it with the NGINX application manifests on our repo. The deployment YAML for NGINX is provided in kuberada labs repo for reference, you can find the nginx manifest files there. 
+
+- All the codes used:
+
+```{button-link} https://gist.github.com/colossus06/19da49118fcb3fc6f28b093a76f3953a
+:color: success
+ArgoCD Gist 
+```
+- Manifest and terraform files:
+
+```{button-link} https://github.com/colossus06/Kuberada-Blog-Labs/tree/main/argocd
+:color: success
+Files 
+```
 
 Let's dive in!
 
@@ -116,7 +129,9 @@ As you can see, repo and application is already setup and the status is healthy.
 
 ## Conclusion
 
-Congratulations! You've successfully set up ArgoCD on your AKS cluster. Now you can deploy your applications with ease using GitOps principles.
+Congratulations! 
+
+You've successfully set up ArgoCD on your AKS cluster. Now you can deploy your applications with ease using GitOps principles.
 
 ![Deploying Applications with ArgoCD](assets/./chrome_BPySmaVXjw.gif)
 
