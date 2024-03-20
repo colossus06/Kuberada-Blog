@@ -70,7 +70,7 @@ While this guide focuses on deploying ArgoCD on an existing AKS cluster, you can
 
 ## Installing ArgoCD on AKS
 
-1. **Download the ArgoCD Manifest:**
+### Download the ArgoCD Manifest
 
 
 Start by downloading the ArgoCD manifest file from the [ArgoCD repository](assets/https://github.com/argoproj/argo-cd/blob/master/manifests/install.yaml).
@@ -79,7 +79,7 @@ Start by downloading the ArgoCD manifest file from the [ArgoCD repository](asset
   wget https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
   ```
 
-2. **Configure ArgoCD:**
+### Configure ArgoCD
 
 Rename the `install.yaml` file to `argo-cm-nodeport.yaml` and configure ArgoCD for your environment:
 
@@ -97,19 +97,19 @@ Rename the `install.yaml` file to `argo-cm-nodeport.yaml` and configure ArgoCD f
     type: NodePort
   ```
 
-3. **Connect SCM and ArgoCD:**
+### Connect SCM and ArgoCD
 
 Since we are using a private repo, we need to create a secret to authenticate with your private Git repository. If you're using the sample nginx manifest file, you can safely skip this step.
 
 
-4. **Deploy ArgoCD:**
+### Deploy ArgoCD
 
 Apply the modified `argo-cm-nodeport.yaml` file and the secret to deploy ArgoCD:
 
 
 ![Installed ArgoCD](assets/20240319232104.png)
 
-5. **Access the ArgoCD UI:**
+### Access the ArgoCD UI
 
 Open the ArgoCD UI using port forwarding:
 
@@ -121,7 +121,7 @@ Access the UI at `http://localhost:8080` and log in with the default username ad
 
 ![ArgoCD UI](assets/20240319233538.png)
 
-6. **Validation**
+## Validation
 
 As you can see, repo and application is already setup and the status is healthy. We didn't interact with the cluster directly instead delegated out github repo as the single source of truth.
 
