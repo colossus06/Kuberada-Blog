@@ -227,13 +227,13 @@ In this blog, we deployed a Python application that responds to HTTPS requests f
 
 ```{button-link} https://gist.github.com/colossus06/d313aff4aefcbf3ffd2cca002de16fed
 :color: success
-ArgoCD Gist 
+Ingress SSL Gist 
 ```
 - Manifest and terraform files:
 
 ```{button-link} https://github.com/colossus06/Kuberada-Blog-Labs/tree/main/nginx-ingress-ssl-cert-manager
 :color: success
-Files 
+Manifest Files 
 ```
 
 ## References
