@@ -1,6 +1,14 @@
 (tag-k8s)=
 :orphan:
 # Topic: Read More on Kubernetes
+ingress-ssl
+
+::::{card-carousel} 2
+:::{card}
+:img-top: ../../og/ingress-ssl.png
+{ref}`ingress-ssl`
+^^^
+::::
 
 ::::{card-carousel} 2
 :::{card}

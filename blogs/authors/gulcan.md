@@ -5,6 +5,11 @@
 
 ::::{card-carousel} 2
 :::{card}
+:img-top: ../../og/ingress-ssl.png
+{ref}`ingress-ssl`
+^^^
+:::
+:::{card}
 :img-top: ../../og/argo.png
 {ref}`argo`
 ^^^

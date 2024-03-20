@@ -50,11 +50,15 @@ Get ready to elevate your skills effortlessly! 🏍️
 
 ::::{card-carousel} 2
 :::{card}
+:img-top: og/ingress-ssl.png
+{ref}`ingress-ssl`
+^^^
+:::
+:::{card}
 :img-top: og/argo.png
 {ref}`argo`
 ^^^
 :::
-
 ::::
 
 
@@ -145,6 +149,7 @@ blogs/get-started/labs
 ```{toctree}
 :caption: Latest Blogs
 :hidden:
+blogs/k8s/ingress-ssl/ingress-ssl.md
 blogs/k8s/argocd/argo.md
 blogs/devops/docker-scout/docker-scout.md
 blogs/k8s/istio/istio.md
