@@ -32,7 +32,11 @@ myst:
 kubernetes
 ```
 
-In this guide, we'll walk through setting up ArgoCD on your AKS cluster. By the end of this hands-on tutorial, you'll have an AKS cluster with an ArgoCD instance monitoring any changes in the repository you've set up, along with the necessary secrets. The demo uses a simple nginx deployment and service file instead of a Python application. You can find the deployment URL in the provided gist. Since the repository is public, you can skip setting up a repository secret. Let's get started quickly!
+ArgoCD is a powerful tool that utilizes GitOps principles to automate and streamline your Kubernetes application deployments. It continuously monitors your Git repository, acting as the single source of truth for your desired application state. When it detects a change, ArgoCD controller automatically reconciles the running applications with the configurations in your Git repository, ensuring a consistent and version-controlled deployment process. 
+
+In this guide, I'll walk you through setting up ArgoCD on your AKS cluster to manage deployments of Python applications stored in a private registry. While the demo uses a python flask deployment and service file for illustrative purposes (ingress, external DNS and cert manager is on the way!), you can easily substitute it with the NGINX application manifests on our repo. The deployment YAML for NGINX is provided in a https://gist.github.com/colossus06/19da49118fcb3fc6f28b093a76f3953a for reference. https://github.com/colossus06/Kuberada-Blog-Labs/tree/main/argocd, you can find the nginx manifest files. As a bonus, since the repository is public, you won't need to set up a repository secret in ArgoCD for access. 
+
+Let's dive in!
 
 ![](assets/20240320010135.png)
 
@@ -121,6 +125,21 @@ Congratulations! You've successfully set up ArgoCD on your AKS cluster. Now you 
 - Access the manifests on our kuberada repo [here](https://github.com/colossus06/Kuberada-Blog-Labs/tree/main/argocd)
 
 ![](assets/20240320001020.png)
+
+## Find all the resources used in this blog here: 
+
+- All the codes used:
+
+```{button-link} https://gist.github.com/colossus06/19da49118fcb3fc6f28b093a76f3953a
+:color: success
+ArgoCD Gist 
+```
+- Manifest and terraform files:
+
+```{button-link} https://github.com/colossus06/Kuberada-Blog-Labs/tree/main/argocd
+:color: success
+Files 
+```
 
 ## References
 
