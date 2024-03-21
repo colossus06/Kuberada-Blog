@@ -219,7 +219,25 @@ One quick validation before destroying the resources:
 ## Conclusion
 
 
-In this blog, we deployed a Python application that responds to HTTPS requests from clients worldwide. We leveraged NGINX ingress, Let's Encrypt with Cert-Manager, a domain, and Terraform to automate HTTPS access and certificate management for our secure AKS application.
+In this blog, we've successfully fortified a Python application deployed on AKS. Now, our users can interact with it securely over HTTPS. We leveraged NGINX ingress, Let's Encrypt with Cert-Manager, a domain, and Terraform to automate HTTPS access and certificate management for our secure AKS application.
+
+**Here's a Recap of the Achieved Security Enhancements:**
+
+* **NGINX Ingress Controller:** Secured the entry point for user traffic.
+* **Let's Encrypt (CA Cluster Issuer):** Provided free, trusted SSL certificates.
+* **Cert-Manager:** Automated certificate issuance and renewal.
+* **Domain:** Established a unique, secure access point.
+
+By employing these tools, we've ensured that communication between users and our application is encrypted, safeguarding data transfer.
+
+**Further Bolstering Your Security Posture:**
+
+* **Network Policies:** Restrict communication between pods to enforce a secure architecture. Imagine multiple services: Network Policies can prevent the web tier from directly accessing the database tier, forcing it to communicate through the backend tier.
+* **Secrets Management:** Integrate Azure Key Vault to securely store sensitive application data like API keys and database credentials, reducing the attack surface by eliminating secrets from your code.
+* **Security Scanning:**  Once we push the image to the registry the secruty scans stop. It shouldn't. There are new vulnerabilities discovered everyday.So, that's why continuous security scanning is crucial. We'll explore this further in our upcoming article, "Designing a Secure Automated CICD Pipeline for Python Applications."
+
+Happy coding!
+
 
 ## Find all the resources used in this blog here: 
 
