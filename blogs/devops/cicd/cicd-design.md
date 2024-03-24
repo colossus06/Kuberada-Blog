@@ -39,9 +39,9 @@ While we'll focus on Python specifics, the core concepts apply to various progra
 
 Our approach offers various benefits, including:
 
-Enhanced Efficiency: Automated repetitive tasks within the CI/CD pipeline free up valuable time and reduce the risk of human error.
-Improved Agility: Faster responses to changing market demands with canary deployments using Argo Rollouts enable quicker iteration, safer rollouts, and production and easy rollbacks.
-Increased Reliability: Consistent and automated deployments lead to a more stable and predictable software delivery process.
+- Enhanced Efficiency: Automated repetitive tasks within the CI/CD pipeline free up valuable time and reduce the risk of human error.
+- Improved Agility: Faster responses to changing market demands with canary deployments using Argo Rollouts enable quicker iteration, safer rollouts, and production and easy rollbacks.
+- Increased Reliability: Consistent and automated deployments lead to a more stable and predictable software delivery process.
 
 Let's dive into the practical implementation of this approach, showcasing the power of Argo, GitHub Actions, Kubernetes, and Argo Rollouts for a smoother, more efficient, and safer DevOps experience.
 
@@ -50,13 +50,12 @@ Let's dive into the practical implementation of this approach, showcasing the po
 
 Let's design a scenario together.
 
-![alt text](assets/chrome_xYg3pxp6SV.gif)
-
 We have a basic Python Flask application on a Kubernetes cluster (AKS). Users come to our application to get their daily cat dose.
 While analyzing user feedback gathered in user testing, we discovered that eight out of ten users found static cat images boring and said they would prefer dynamic images or GIFs. As a result, the product owner created a Jira ticket, and a Python developer on the team was assigned to implement the feature of displaying cat images dynamically.
 
 While real-life issues may not always be as simple as we've already highlighted, we aim to practice the philosophy behind designing an automated and secure pipeline, regardless of the intricacy of the issues, languages, or tools.
 
+![alt text](assets/chrome_xYg3pxp6SV.gif)
 
 
 ## First Step: From Local Development
@@ -81,7 +80,6 @@ We have also set some repository secrets like username, PAT, SSH private key, ku
 
 ![alt text](assets/ssl_tls_dig.png)
 
-![alt text](assets/<helm installations-1.png>)
 
 ### Tools Preference
 
@@ -412,7 +410,12 @@ As DevOps continues to evolve, leveraging these tools positions you for success 
 Happy coding👩‍💻
 
 
-Take a look at the brief overview of the [Case study](https://www.devtechops.dev/portfolio/canary-deployments-made-easy-a-cicd-journey-with-github-actions-and-argo) on my website.
+Take a look at the brief overview of the project:
+
+```{button-link} https://www.devtechops.dev/portfolio/canary-deployments-made-easy-a-cicd-journey-with-github-actions-and-argo
+:color: success
+Case study on my website
+```
 
 ## References
 
