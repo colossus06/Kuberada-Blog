@@ -5,6 +5,13 @@
 
 ::::{card-carousel} 2
 :::{card}
+:img-top: ../../og/cicd.png
+{ref}`cicd`
+^^^
+::::
+
+::::{card-carousel} 2
+:::{card}
 :img-top: ../../og/gitlab-runner.png
 {ref}`gitlab-runner`
 ^^^

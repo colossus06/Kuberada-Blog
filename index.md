@@ -50,6 +50,13 @@ Get ready to elevate your skills effortlessly! 🏍️
 
 ::::{card-carousel} 2
 :::{card}
+:img-top: og/cicd.png
+{ref}`cicd`
+^^^
+::::
+
+::::{card-carousel} 2
+:::{card}
 :img-top: og/ingress-ssl.png
 {ref}`ingress-ssl`
 ^^^
@@ -149,6 +156,7 @@ blogs/get-started/labs
 ```{toctree}
 :caption: Latest Blogs
 :hidden:
+blogs/devops/cicd/cicd.md
 blogs/k8s/ingress-ssl/ingress-ssl.md
 blogs/k8s/argocd/argo.md
 blogs/devops/docker-scout/docker-scout.md

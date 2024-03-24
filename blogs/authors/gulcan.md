@@ -5,6 +5,14 @@
 
 ::::{card-carousel} 2
 :::{card}
+:img-top: ../../og/cicd.png
+{ref}`cicd`
+^^^
+::::
+
+
+::::{card-carousel} 2
+:::{card}
 :img-top: ../../og/ingress-ssl.png
 {ref}`ingress-ssl`
 ^^^
