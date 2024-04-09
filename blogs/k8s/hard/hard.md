@@ -133,7 +133,8 @@ I believe it's time to give my hardware a well-deserved break.
 
 ![fresh](images/image-9.png)
 
-<iframe class="block mx-auto" width="560" height="315" src="https://youtu.be/33Q1FmBNpQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/33Q1FmBNpQQ?si=Fx2EmzDO3A8B-gSW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Conclusion
 
