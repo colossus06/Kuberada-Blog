@@ -133,9 +133,12 @@ I believe it's time to give my hardware a well-deserved break.
 
 ![fresh](images/image-9.png)
 
-Here is a demonstration of the deployment and testing of a python flask application.
 
-![](./images/demo.mp4)
+
+:::{figure} ./images/demo.mp4
+:width: 50%
+Here is a demonstration of the deployment and testing of a python flask application.
+:::
 
 
 ## Conclusion
