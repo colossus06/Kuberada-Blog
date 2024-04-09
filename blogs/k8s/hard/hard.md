@@ -133,11 +133,10 @@ I believe it's time to give my hardware a well-deserved break.
 
 ![fresh](images/image-9.png)
 
+Here is a demonstration of the deployment and testing of a python flask application.
 
-:::{iframe} https://youtu.be/33Q1FmBNpQQ
-:width: 100%
-Demo of smoke testing the Cluster
-:::
+![](./images/demo.mp4)
+
 
 ## Conclusion
 
