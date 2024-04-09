@@ -122,16 +122,22 @@ Now you should be able manage the cluster using kubectl (kubectl under the hood)
 
 Get the PV's":
 
-![](images/./pv.png)
+![](images/pv.png)
 
 Checking the local path to your NFS shared directory:
 
-![](images/./local-nfs.png)
+![](images/local-nfs.png)
 
 
 I believe it's time to give my hardware a well-deserved break.
 
 ![fresh](images/image-9.png)
+
+
+```{youtube} https://youtu.be/33Q1FmBNpQQ
+:title: Demo of smoke testing the Cluster
+```
+
 
 ## Conclusion
 
