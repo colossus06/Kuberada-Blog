@@ -50,6 +50,11 @@ Get ready to elevate your skills effortlessly! 🏍️
 
 ::::{card-carousel} 2
 :::{card}
+:img-top: og/hard.png
+{ref}`hard`
+^^^
+::::
+:::{card}
 :img-top: og/cicd.png
 {ref}`cicd`
 ^^^
@@ -156,6 +161,7 @@ blogs/get-started/labs
 ```{toctree}
 :caption: Latest Blogs
 :hidden:
+blogs/k8s/argohard/hard.md
 blogs/devops/cicd/cicd.md
 blogs/k8s/ingress-ssl/ingress-ssl.md
 blogs/k8s/argocd/argo.md

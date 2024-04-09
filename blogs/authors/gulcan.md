@@ -5,6 +5,11 @@
 
 ::::{card-carousel} 2
 :::{card}
+:img-top: ../../og/hard.png
+{ref}`hard`
+^^^
+::::
+:::{card}
 :img-top: ../../og/cicd.png
 {ref}`cicd`
 ^^^
