@@ -120,7 +120,7 @@ Now you should be able manage the cluster using kubectl (kubectl under the hood)
 
 ![](images/kernel.png)
 
-Get the PV's":
+Get the PV's:
 
 ![](images/pv.png)
 
@@ -133,12 +133,6 @@ I believe it's time to give my hardware a well-deserved break.
 
 ![fresh](images/image-9.png)
 
-
-
-:::{figure} ./videos/demo.mp4
-:width: 75%
-Here is a demonstration of the deployment and testing of a python flask application.
-:::
 
 
 ## Conclusion
