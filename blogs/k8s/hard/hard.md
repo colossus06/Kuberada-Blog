@@ -134,10 +134,10 @@ I believe it's time to give my hardware a well-deserved break.
 ![fresh](images/image-9.png)
 
 
-```{youtube} https://youtu.be/33Q1FmBNpQQ
-:title: Demo of smoke testing the Cluster
-```
-
+:::{iframe} https://youtu.be/33Q1FmBNpQQ
+:width: 100%
+Demo of smoke testing the Cluster
+:::
 
 ## Conclusion
 
