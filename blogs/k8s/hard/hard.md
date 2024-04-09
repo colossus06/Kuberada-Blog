@@ -135,8 +135,8 @@ I believe it's time to give my hardware a well-deserved break.
 
 
 
-:::{figure} ./images/demo.mp4
-:width: 50%
+:::{figure} ./videos/demo.mp4
+:width: 75%
 Here is a demonstration of the deployment and testing of a python flask application.
 :::
 
