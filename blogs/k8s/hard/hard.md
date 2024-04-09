@@ -38,7 +38,7 @@ We will setup the following cluster:
 
 And we will perfom some actions like:
 
-![final-cluster](imagesimage-8.png)
+![final-cluster](images/image-8.png)
 
 ### Component Versions
 
@@ -74,16 +74,16 @@ Now you should be able manage the cluster using kubectl (kubectl under the hood)
 
 - Data at rest encryption and printing a hexdump of the kuberada secret stored in etcd:
 
-![data-at-rest](imagesimage-4.png)
+![data-at-rest](images/image-4.png)
 
 - Port forwarding and making an HTTP request using the forwarding address:
 
 
-![port-forwarding](imagesimage-5.png)
+![port-forwarding](images/image-5.png)
 
 - Dns resolution:
 
-![ping-kuberada](imagesimage-6.png)
+![ping-kuberada](images/image-6.png)
 
 
 
@@ -104,34 +104,34 @@ Now you should be able manage the cluster using kubectl (kubectl under the hood)
 
 - Mapping Domain Names to IP Addresses in `/etc/hosts`: Ensure that domain names are correctly mapped to their respective IP addresses in the `/etc/hosts` file. This mapping is crucial for proper communication between components in your Kubernetes cluster.
 
-![ect-hosts](imagesimage-2.png)
+![ect-hosts](images/image-2.png)
 
 - Adding Routes for Pod Communication Across Nodes: By adding routes to the node's internal IP address for each worker node's Pod CIDR range, you ensure that pods can reach each other across nodes. This step is essential for the Kubernetes networking model to function correctly.
 
-![routes](imagesimage-3.png)
+![routes](images/image-3.png)
 
 - nfsd command not found: If you encounter an issue where the nfsd command is not found, you need to enable NFS by updating the kernel and adding the following lines to /etc/wsl.conf. After making these changes, you should be able to use NFS successfully.
 
 `sudo service nfs-kernel-server status`
 
 
-![nfs-enabled](imagesimage-1.png)
+![nfs-enabled](images/image-1.png)
 
 
-![](imageskernel.png)
+![](images/kernel.png)
 
 Get the PV's":
 
-![](images./pv.png)
+![](images/./pv.png)
 
 Checking the local path to your NFS shared directory:
 
-![](images./local-nfs.png)
+![](images/./local-nfs.png)
 
 
 I believe it's time to give my hardware a well-deserved break.
 
-![fresh](imagesimage-9.png)
+![fresh](images/image-9.png)
 
 ## Conclusion
 

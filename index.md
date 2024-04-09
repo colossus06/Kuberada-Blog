@@ -161,7 +161,7 @@ blogs/get-started/labs
 ```{toctree}
 :caption: Latest Blogs
 :hidden:
-blogs/k8s/argohard/hard.md
+blogs/k8s/hard/hard.md
 blogs/devops/cicd/cicd.md
 blogs/k8s/ingress-ssl/ingress-ssl.md
 blogs/k8s/argocd/argo.md
