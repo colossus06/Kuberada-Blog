@@ -27,7 +27,7 @@ myst:
 :color: success
 :outline:
 :shadow:
-kube
+kubernetes
 ```
 
 Grasping the inner workings of Kubernetes can be challenging. Sure, managed Kubernetes services make things easier. But for those who crave a deep understanding of how Kubernetes really works, Kubernetes The Hard Way offers a hands-on approach to setting up a Kubernetes cluster, providing a deeper understanding of its components and their interactions. TThis (mostly) concise,article aims to outline the basic flow of the steps, include some smoke tests on a python flask application (like verifying data at rest encryption, DNS resolving, pod-to-pod communication), and offer various tips. 
