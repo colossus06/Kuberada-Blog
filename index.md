@@ -1,16 +1,17 @@
 % ckad-devops documentation master file, created by
 % sphinx-quickstart on Mon Jan  1 23:06:34 2024.
 
-# welcome 🚁
+# Welcome 🚁
 
-Gulcan's Kubernetes DevOps and Corner!
+This is Gulcan's Kubernetes DevOps and Corner!
+
 Discover practical solutions and hands-on projects to boost your skills 🚀
 
 **⚙️ What to Expect:**
 
 - Real Kubernetes and CICD Projects, Real Solutions✔
 - Simplified DevOps Challenges✔
-- Hands-On Learning with Kubernetes, DevOps, GitOps and Automation✔
+- Hands-On Learning with Kubernetes, DevOps, GitOps and Automation
 
 
 <!-- :::{card} 
@@ -107,6 +108,7 @@ Discover practical solutions and hands-on projects to boost your skills 🚀
 ^^^
 :::
 ::::
+
 
 
 ```{toctree}
