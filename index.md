@@ -5,12 +5,10 @@
 
 This is Gulcan's Kubernetes DevOps and Corner!
 
-Discover practical solutions and hands-on projects to boost your skills 🚀
+Discover practical solutions and hands-on projects to boost your skills.
 
-**⚙️ What to Expect:**
-
-- Real Kubernetes and CICD Projects, Real Solutions✔
-- Simplified DevOps Challenges✔
+- Real Kubernetes and CICD Projects, Real Solutions
+- Simplified DevOps Challenges
 - Hands-On Learning with Kubernetes, DevOps, GitOps and Automation
 
 
@@ -40,7 +38,7 @@ Discover practical solutions and hands-on projects to boost your skills 🚀
 
 <!-- <img src="https://api.thegreenwebfoundation.org/greencheckimage/kuberada.devtechops.dev?nocache=true" alt="This website is hosted Green - checked by thegreenwebfoundation.org"> -->
 
-## Latest Blogs 🦋⃤♡⃤🌈⃤
+## Latest Blogs
 
 </br>
 
@@ -174,6 +172,3 @@ Check out our [github repo](https://github.com/colossus06/kuberada-blog) for iss
 
 Follow me for updates on [github](https://github.com/colossus06)!
 
-<!-- ```{admonition} Estimated completion
-  1 April
-``` -->

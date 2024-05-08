@@ -304,4 +304,3 @@ Happy meshing!
 
 <br>
 
-<div class="sharethis-inline-reaction-buttons"></div>
