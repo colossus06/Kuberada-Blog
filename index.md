@@ -1,21 +1,16 @@
 % ckad-devops documentation master file, created by
 % sphinx-quickstart on Mon Jan  1 23:06:34 2024.
 
-# welcome
+# welcome 🚁
 
-Welcome, DevOps enthusiast and Kubernetes explorer! 🚀
-
-You've discovered a treasure trove of knowledge! 💡
-
-Get ready to elevate your skills effortlessly! 🏍️
-
-
+Gulcan's Kubernetes DevOps and Corner!
+Discover practical solutions and hands-on projects to boost your skills 🚀
 
 **⚙️ What to Expect:**
 
 - Real Kubernetes and CICD Projects, Real Solutions✔
 - Simplified DevOps Challenges✔
-- Hands-On Learning with Kubernetes, Linux system administration, and Scripting✔
+- Hands-On Learning with Kubernetes, DevOps, GitOps and Automation✔
 
 
 <!-- :::{card} 
@@ -114,23 +109,6 @@ Get ready to elevate your skills effortlessly! 🏍️
 ::::
 
 
-### what is k8s?
-
-```{include} blogs/snippets/what-is-k8s.md
-```
-
-
-### what is devops?
-
-```{include} blogs/snippets/what-is-devops.md
-```
-
-### a note on python
-
-```{include} blogs/snippets/python-and-devops.md
-```
-
-
 ```{toctree}
 :caption: Get Started
 :hidden:
@@ -192,7 +170,7 @@ about.md
 
 Check out our [github repo](https://github.com/colossus06/kuberada-blog) for issues labelled with `contribute` or `blog` 🧱
 
-Follow us for updates on [github](https://github.com/colossus06)!
+Follow me for updates on [github](https://github.com/colossus06)!
 
 <!-- ```{admonition} Estimated completion
   1 April

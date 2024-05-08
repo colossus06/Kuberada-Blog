@@ -19,7 +19,7 @@ Welcome to Your DevOps Learning Hub 🤟!
   Expect regular updates and new content.
 ```
 
-Thank you for joining us on this journey.
+Thank you for joining me on this journey.
 
 
 

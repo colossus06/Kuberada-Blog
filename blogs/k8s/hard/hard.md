@@ -7,7 +7,7 @@ myst:
     "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/hard.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/hard.png" alt="ephemeral" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/hard.png" alt="kubernetes the hard way" class="bg-primary">
 
 (hard)=
 # A High-Level Overview of Kubernetes The Hard Way on WSL

@@ -29,7 +29,7 @@ myst:
 container
 ```
 
-Ensuring the security of Docker images is vital for maintaining the overall security posture of your organization. Docker Scout, a security tool developed by Docker, excels in scanning Docker images for potential vulnerabilities and provides valuable recommendations to enhance image security. In this blog post, we will guide you through the process of leveraging Docker Scout to scan and secure Docker images. Join us as we learn to scan, identify, and address vulnerabilities in container images, effectively minimizing risks in production environments while aligning with cloud-native security practices.
+Ensuring the security of Docker images is vital for maintaining the overall security posture of your organization. Docker Scout, a security tool developed by Docker, excels in scanning Docker images for potential vulnerabilities and provides valuable recommendations to enhance image security. In this blog post, we will guide you through the process of leveraging Docker Scout to scan and secure Docker images. Join me as we learn to scan, identify, and address vulnerabilities in container images, effectively minimizing risks in production environments while aligning with cloud-native security practices.
 
 ## Introducing Vulnerable Python Image
 

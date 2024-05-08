@@ -7,7 +7,7 @@ myst:
     "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ingress-ssl.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ingress-ssl.png" alt="ephemeral" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ingress-ssl.png" alt="Let's Encrypt Your Way" class="bg-primary">
 
 (ingress-ssl)=
 # Secure Your AKS Application with HTTPS: Let's Encrypt Your Way!

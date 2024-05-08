@@ -18,10 +18,10 @@ Welcome to the official repository for Kuberada, your go-to destination for insi
 
 - **Website**: Visit [Kuberada](https://kuberada.devtechops.dev/) to read the latest blog posts and explore additional resources.
 
-- **LinkedIn**: Connect with us on [LinkedIn](https://www.linkedin.com/in/gulcantopcu/) to stay informed about upcoming events and community activities.
+- **LinkedIn**: Connect with me on [LinkedIn](https://www.linkedin.com/in/gulcantopcu/) to stay informed about upcoming events and community activities.
 
 ## Let's Learn Together!
 
-Thank you for visiting the Kuberada blog repository. Let's embark on a journey of continuous learning and exploration in the exciting world of DevOps, Kubernetes, CI/CD, and system administration! 🌟
+Thank you for visiting the Kuberada blog repository. Let's embark on a journey of continuous learning and exploration in the exciting world of DevOps, Kubernetes, CI/CD, and Gitops! 🌟
 
 ![image](https://github.com/colossus06/kuberada-blog/assets/96833570/cbc2c15f-fec3-4bff-b1f0-f7c9f69bc149)

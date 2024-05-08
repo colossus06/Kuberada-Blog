@@ -53,15 +53,3 @@ blogs/devops/devops-collection
 
 </br>
 
-
-#### 🚧 **Under Construction** 🚧
-
-We're working hard to bring you an even better blogging experience! Our site is currently undergoing maintenance, and some features may be temporarily unavailable.
-
-Estimated completion: [After clearing CKAD :)].
-
-Follow us for updates!
-
-```{admonition} This is a title
-  This blog is under construction
-```
