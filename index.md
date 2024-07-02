@@ -168,9 +168,10 @@ about.md
 
 ```
 
-#### **🙌 do you want to contribute** 
+## Follow Me
 
-Check out our [github repo](https://github.com/colossus06/kuberada-blog) for issues labelled with `contribute` or `blog` 🧱
+What's your pick?
 
-Follow me for updates on [github](https://github.com/colossus06)!
-
+- For any updates: [Linkedin](https://www.linkedin.com/in/gulcantopcu/)
+- Read incredible Kubernetes Stories: [Medium](https://medium.com/@gulcantopcu)
+- Challenging projects: You're already in the right place.
