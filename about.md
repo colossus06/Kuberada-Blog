@@ -1,23 +1,26 @@
-# About us
+# About Me
 
 Hi 👋
 
-I'm Gulcan, a DevOps enthusiast passionate about automation, scripting, and addressing real-world challenges.
+I'm Gulcan, a DevOps and Kubernetes enthusiast who loves automation, scripting, and solving real-world problems. 
 
-My therapy is crafting solutions and sharing insights through writing.
+If there's a challenge, I'm probably already tinkering with a solution.
 
-What Drives Me:
+## What I Do
 
-- Kubernetes: I love challenges, especially when the solution involves Kubernetes.
-- Automation: Automate whenever you can.
-- DevOps: The glue between development and operations.
-- DevSecOps: Security is always a priority.
+- I enjoy tackling challenges with Kubernetes
 
-Join me on this journey of continuous learning.
+- Why do something manually when you can automate it?
 
+- Security is always included, never optional.
+
+Join me on this journey of continuous learning and solving some puzzles.
 <br>
 
-## Connect with me on Linkedin
+## Follow Me
 
+What's your pick?
 
-[Gulcan Topcu](https://www.linkedin.com/in/gulcantopcu/)
+- For any updates: [Linkedin](https://www.linkedin.com/in/gulcantopcu/)
+- Read incredible Kubernetes Stories: [Medium](https://medium.com/@gulcantopcu)
+- Challenging projects: You're already in the right place.
