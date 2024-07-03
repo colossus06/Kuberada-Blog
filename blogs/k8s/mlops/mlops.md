@@ -34,7 +34,9 @@ As a Kubernetes wrangler, you have probably heard the buzz about MLOps and its p
 
 In this guide, I'll show you how to effectively use Kubeflow, KServe, and Flask to predict customer churn.
 
-![](./assets/customer-that-will-churn.png
+![](./assets/customer-that-will-churn.png)
+
+
 
 Traditional MLOps workflows often grapple with several pain points, such as:
 - Scalability: Managing the growing volume of data and models.
@@ -46,7 +48,7 @@ Enter Kubeflow, an end-to-end MLOps platform that streamlines machine learning w
 
 Together, they offer a robust solution to these challenges. I'll also utilize Flask to build the model's API, making it easy to integrate with KServe.
 
-![](./mlops_mermaid_3.png)
+![](./assets/mlops_mermaid_3.png)
 
 ## Why MLOps Matters
 
@@ -71,7 +73,7 @@ Kubeflow comprises several components that support the entire ML lifecycle:
 - Notebooks: Provides an interactive environment for data scientists to experiment and develop models.
 - Experiments: Tracks and manages different model versions and experiments.
 
-    ![](./mlops_mermaid_1.png)
+![](./assets/mlops_mermaid_1.png)
 
 Kubeflow simplifies:
 - Experiment Tracking: Keeps track of different experiments and their outcomes.
@@ -96,7 +98,7 @@ Serverless MLOps offers several advantages:
 I used Flask to create a lightweight and flexible API for the model. This integration makes it easy to deploy and manage the model with KServe.
 
 
-![](./mlops_mermaid_2.png)
+![](./assets/mlops_mermaid_2.png)
 
 ### What is Churn?
 

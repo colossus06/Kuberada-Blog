@@ -49,6 +49,7 @@ Join me in turning theory into practice.
 :img-top: og/mlops.png
 {ref}`mlops`
 ^^^
+:::
 ::::
 
 ::::{card-carousel} 2
@@ -56,12 +57,15 @@ Join me in turning theory into practice.
 :img-top: og/hard.png
 {ref}`hard`
 ^^^
-::::
+:::
 :::{card}
 :img-top: og/cicd.png
 {ref}`cicd`
 ^^^
+:::
 ::::
+
+
 
 ::::{card-carousel} 2
 :::{card}
