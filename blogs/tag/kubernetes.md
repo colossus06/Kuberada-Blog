@@ -15,7 +15,7 @@
 :img-top: ../../og/hard.png
 {ref}`hard`
 ^^^
-::::
+:::
 :::{card}
 :img-top: ../../og/ingress-ssl.png
 {ref}`ingress-ssl`
