@@ -73,7 +73,10 @@ Kubeflow comprises several components that support the entire ML lifecycle:
 * Notebooks: Provides an interactive environment for data scientists to experiment and develop models.
 * Experiments: Tracks and manages different model versions and experiments.
 
-![](./assets/mlops_mermaid_1.png)
+```{figure} ./assets/mlops_mermaid_1.png
+:alt: mlops diagram
+:align: center
+```
 
 Kubeflow simplifies:
 * Experiment Tracking: Keeps track of different experiments and their outcomes.
