@@ -266,16 +266,12 @@ Manifest Files
 - [Kubernetes Documentation](https://kubernetes.io/docs/)
 
 
+**Enjoyed this read?**
 
-<!-- <p id="quote-container"> </p> -->
+If you found this guide helpful,check our blog archives 📚✨
 
-👉 For a wealth of knowledge, check our blog archives.
-Happy reading! 📚✨
+- Follow me on [LinkedIn](https://www.linkedin.com) to get updated.
+- Read incredible Kubernetes Stories: [Medium](https://medium.com/@gulcantopcu)
+- Challenging projects: You're already in the right place.
 
-
-<div style="text-align: center;">
-  <h2>Did you like kuberada? 🐶 </h2>
-</div>
-
-<br>
-
+Until next time!

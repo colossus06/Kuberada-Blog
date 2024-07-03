@@ -241,13 +241,12 @@ To recap, securing Docker images is a critical aspect of maintaining a robust an
 Happy upskilling!
 
 
-👉 For a wealth of knowledge, check our blog archives.
-Happy reading! 📚✨
+**Enjoyed this read?**
 
+If you found this guide helpful,check our blog archives 📚✨
 
-<div style="text-align: center;">
-  <h2>Did you like kuberada? 🐶 </h2>
-</div>
+- Follow me on [LinkedIn](https://www.linkedin.com) to get updated.
+- Read incredible Kubernetes Stories: [Medium](https://medium.com/@gulcantopcu)
+- Challenging projects: You're already in the right place.
 
-<br>
-
+Until next time!

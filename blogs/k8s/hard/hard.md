@@ -146,18 +146,15 @@ On the other hand, if you are looking to gain a deeper understanding of Kubernet
 
 In conclusion, whether you choose to use a managed Kubernetes service or set up Kubernetes The Hard Way, both options offer valuable learning experiences and can help you gain a better understanding of Kubernetes.
 
-<!-- <p id="quote-container"> </p> -->
+**Enjoyed this read?**
 
-👉 For a wealth of knowledge, check our blog archives.
-Happy reading! 📚✨
+If you found this guide helpful,check our blog archives 📚✨
 
+- Follow me on [LinkedIn](https://www.linkedin.com) to get updated.
+- Read incredible Kubernetes Stories: [Medium](https://medium.com/@gulcantopcu)
+- Challenging projects: You're already in the right place.
 
-<div style="text-align: center;">
-  <h2>Did you like kuberada? 🐶 </h2>
-</div>
-
-<br>
-
+Until next time!
 
 
 

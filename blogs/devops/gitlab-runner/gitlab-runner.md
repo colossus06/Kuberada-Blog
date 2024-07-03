@@ -135,15 +135,12 @@ In this quick tutorial, we learned what a GitLab Runner is, how to install it, a
 - [GitLab CI/CD Documentation](https://docs.gitlab.com/ee/ci/)
 
 
-<!-- <p id="quote-container"> </p> -->
+**Enjoyed this read?**
 
-👉 For a wealth of knowledge, check our blog archives.
-Happy reading! 📚✨
+If you found this guide helpful,check our blog archives 📚✨
 
+- Follow me on [LinkedIn](https://www.linkedin.com) to get updated.
+- Read incredible Kubernetes Stories: [Medium](https://medium.com/@gulcantopcu)
+- Challenging projects: You're already in the right place.
 
-<div style="text-align: center;">
-  <h2>Did you like kuberada? 🐶 </h2>
-</div>
-
-<br>
-
+Until next time!

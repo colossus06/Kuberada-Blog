@@ -44,6 +44,13 @@ Join me in turning theory into practice.
 
 </br>
 
+::::{card-carousel}
+:::{card}
+:img-top: og/mlops.png
+{ref}`mlops`
+^^^
+::::
+
 ::::{card-carousel} 2
 :::{card}
 :img-top: og/hard.png
