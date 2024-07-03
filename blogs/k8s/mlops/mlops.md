@@ -74,7 +74,8 @@ Kubeflow is a comprehensive platform that supports the entire machine learning l
 * Pipelines automates the workflow from data ingestion to model deployment, streamlining the process and ensuring consistency.
 * Notebooks provides an interactive environment for data scientists to experiment, develop, and fine-tune models efficiently.
 * Experiments tracks and manages different model versions and experiments, facilitating better model management and iteration.
-* These components work together to simplify and enhance the MLOps process, making it easier to manage, deploy, and scale machine learning models.
+
+These components work together to simplify and enhance the MLOps process, making it easier to manage, deploy, and scale machine learning models.
 
 ```{figure} ./assets/mlops_mermaid_1.png
 :alt: mlops diagram
