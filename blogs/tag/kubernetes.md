@@ -2,11 +2,12 @@
 :orphan:
 # Topic: Read More on Kubernetes
 
-::::{card-carousel} 
+::::{card-carousel} 1
 :::{card}
 :img-top: ../../og/mlops.png
 {ref}`mlops`
 ^^^
+:::
 ::::
 
 ::::{card-carousel} 2
@@ -19,7 +20,9 @@
 :img-top: ../../og/ingress-ssl.png
 {ref}`ingress-ssl`
 ^^^
+:::
 ::::
+
 
 ::::{card-carousel} 2
 :::{card}
