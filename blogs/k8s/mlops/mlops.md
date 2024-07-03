@@ -34,15 +34,15 @@ As a Kubernetes wrangler, you have probably heard the buzz about MLOps and its p
 
 In this guide, I'll show you how to effectively use Kubeflow, KServe, and Flask to predict customer churn.
 
-![](./assets/customer-that-will-churn.png)
+![](./assets/customer-that-wont-churn.png)
 
 
 
 Traditional MLOps workflows often grapple with several pain points, such as:
-- Scalability: Managing the growing volume of data and models.
-- Infrastructure Management: Maintaining and scaling the underlying infrastructure.
-- Model Deployment Complexity: Seamlessly integrate and deploy models into production.
-- High Costs: Managing operational costs effectively.
+* Scalability: Managing the growing volume of data and models.
+* Infrastructure Management: Maintaining and scaling the underlying infrastructure.
+* Model Deployment Complexity: Seamlessly integrate and deploy models into production.
+* High Costs: Managing operational costs effectively.
 
 Enter Kubeflow, an end-to-end MLOps platform that streamlines machine learning workflows, and KServe, its serverless model deployment component. 
 
@@ -53,15 +53,15 @@ Together, they offer a robust solution to these challenges. I'll also utilize Fl
 ## Why MLOps Matters
 
 Efficient MLOps practices can significantly impact businesses:
-- Accelerates the time from model development to deployment.
-- Enhances the ability to retrain and optimize models.
-- Facilitates the handling of large-scale data and model training.
-- Leads to more informed decision-making and competitive advantage.
+* Accelerates the time from model development to deployment.
+* Enhances the ability to retrain and optimize models.
+* Facilitates the handling of large-scale data and model training.
+* Leads to more informed decision-making and competitive advantage.
 
 Kubernetes is a popular choice for MLOps due to:
-- Efficiently manages resources and scales applications.
-- Ensures optimal usage of computing resources.
-- Allows for easy deployment across different environments.
+* Efficiently manages resources and scales applications.
+* Ensures optimal usage of computing resources.
+* Allows for easy deployment across different environments.
 
 ## Kubeflow Overview
 
@@ -69,29 +69,29 @@ Kubeflow comprises several components that support the entire ML lifecycle:
 
 
 
-- Pipelines: Automates the workflow from data ingestion to model deployment.
-- Notebooks: Provides an interactive environment for data scientists to experiment and develop models.
-- Experiments: Tracks and manages different model versions and experiments.
+* Pipelines: Automates the workflow from data ingestion to model deployment.
+* Notebooks: Provides an interactive environment for data scientists to experiment and develop models.
+* Experiments: Tracks and manages different model versions and experiments.
 
 ![](./assets/mlops_mermaid_1.png)
 
 Kubeflow simplifies:
-- Experiment Tracking: Keeps track of different experiments and their outcomes.
-- Model Versioning: Manages multiple versions of a model efficiently.
-- Pipeline Orchestration: Automates and orchestrates complex ML workflows.
+* Experiment Tracking: Keeps track of different experiments and their outcomes.
+* Model Versioning: Manages multiple versions of a model efficiently.
+* Pipeline Orchestration: Automates and orchestrates complex ML workflows.
 
 
 
 ## KServe & Serverless MLOps
 
 KServe is a Kubernetes-native model-serving framework that simplifies model deployment and scaling. It offers:
-- Serverless Scaling: Automatically scales resources based on demand.
-- Ease of Use: Simplifies the process of deploying and managing models.
+* Serverless Scaling: Automatically scales resources based on demand.
+* Ease of Use: Simplifies the process of deploying and managing models.
 
 Serverless MLOps offers several advantages:
-- Reduced Operational Overhead: Minimizes the need for manual infrastructure management.
-- Automatic Scaling: Adjusts resources based on workload, ensuring efficient resource utilization.
-- Cost-Effectiveness: Only pays for the resources used, reducing overall costs.
+* Reduced Operational Overhead: Minimizes the need for manual infrastructure management.
+* Automatic Scaling: Adjusts resources based on workload, ensuring efficient resource utilization.
+* Cost-Effectiveness: Only pays for the resources used, reducing overall costs.
 
 ## Case Study: Churn Prediction Project
 
@@ -237,27 +237,27 @@ curl -X POST \
 
 Using flask based webapp:
 
-![](./assets/customer-that-wont-churn.png)
+![](./assets/customer-that-will-churn.png)
 
 ## Key Takeaways from Our Practical Implementation
 
-- Manual management of ML workflows was time-consuming, prone to errors, and required significant developer effort. With Kubeflow Pipelines, we automated the entire process, reducing workflow management time and decreasing errors. This automation freed up developers to focus on model development and optimization.
+* Manual management of ML workflows was time-consuming, prone to errors, and required significant developer effort. With Kubeflow Pipelines, we automated the entire process, reducing workflow management time and decreasing errors. This automation freed up developers to focus on model development and optimization.
 
-- Deploying models manually resulted in inconsistent performance, frequent downtime, and scalability issues during high load periods. KServe provided automatic scaling and efficient resource utilization, resulting in improved model response time and reduced downtime during peak usage.
+* Deploying models manually resulted in inconsistent performance, frequent downtime, and scalability issues during high load periods. KServe provided automatic scaling and efficient resource utilization, resulting in improved model response time and reduced downtime during peak usage.
 
-- Integrating the model with applications was cumbersome, with slow response times affecting user experience. The Flask API integration streamlined interactions, improving response times and simplifying the integration process, which reduced development time.
+* Integrating the model with applications was cumbersome, with slow response times affecting user experience. The Flask API integration streamlined interactions, improving response times and simplifying the integration process, which reduced development time.
 
-- Over-provisioning resources led to high operational costs, with many underutilized resources needing to be utilized. Implementing a serverless architecture with KServe reduced resource costs by 40%, as resources were automatically scaled based on demand, ensuring optimal utilization.
+* Over-provisioning resources led to high operational costs, with many underutilized resources needing to be utilized. Implementing a serverless architecture with KServe reduced resource costs by 40%, as resources were automatically scaled based on demand, ensuring optimal utilization.
 
-- The ML lifecycle stages were disjointed, causing delays and inconsistencies across data ingestion, preprocessing, training, and deployment. Kubeflow's end-to-end automation reduced the time to deploy a new model version from weeks to days, improving consistency and reducing manual intervention.
+* The ML lifecycle stages were disjointed, causing delays and inconsistencies across data ingestion, preprocessing, training, and deployment. Kubeflow's end-to-end automation reduced the time to deploy a new model version from weeks to days, improving consistency and reducing manual intervention.
 
 **Enjoyed this read?**
 
 If you found this guide helpful,check our blog archives 📚✨
 
-- Follow me on [LinkedIn](https://www.linkedin.com) to get updated.
-- Read incredible Kubernetes Stories: [Medium](https://medium.com/@gulcantopcu)
-- Challenging projects: You're already in the right place.
+* Follow me on [LinkedIn](https://www.linkedin.com) to get updated.
+* Read incredible Kubernetes Stories: [Medium](https://medium.com/@gulcantopcu)
+* Challenging projects: You're already in the right place.
 
 Until next time!
 

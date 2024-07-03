@@ -52,6 +52,7 @@ Join me in turning theory into practice.
 :::
 ::::
 
+
 ::::{card-carousel} 2
 :::{card}
 :img-top: og/hard.png
