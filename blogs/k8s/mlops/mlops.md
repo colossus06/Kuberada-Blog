@@ -196,6 +196,7 @@ We have observed that the customer is still in the early stages of their relatio
 
 It's crucial to remember that this is a prediction based on a single data snapshot.
 
+
 For more accurate predictions, analyzing long-term behavior and other factors like customer service interactions, promotions, and competitor offerings is essential.
 You can expand this study including other classifiers such as Logistic Regression, Random Forest, Gradient Boosting Machines, and Neural Networks.
 
