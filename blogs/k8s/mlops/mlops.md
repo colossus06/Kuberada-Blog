@@ -30,84 +30,76 @@ myst:
 kubernetes
 ```
 
-As a Kubernetes wrangler, you have probably heard the buzz about MLOps and its potential to revolutionize data-driven businesses. While the potential ROI is significant (reducing churn by a mere 5% can boost profits by 25-95% [^1]) , building and maintaining effective MLOps pipelines can be daunting, especially if you're new to the machine learning world.
+As a Kubernetes wrangler, you have probably heard the buzz about MLOps and its potential to revolutionize data-driven businesses.
+
+While the potential ROI is significant (reducing churn by a mere 5% can boost profits by 25-95% [^1]) , building and maintaining effective MLOps pipelines can be daunting, especially if you're new to the machine learning world.
 
 In this guide, I'll show you how to effectively use Kubeflow, KServe, and Flask to predict customer churn.
 
 ![](./assets/customer-that-wont-churn.png)
 
 
-
 Traditional MLOps workflows often grapple with several pain points, such as:
-* Scalability: Managing the growing volume of data and models.
-* Infrastructure Management: Maintaining and scaling the underlying infrastructure.
-* Model Deployment Complexity: Seamlessly integrate and deploy models into production.
-* High Costs: Managing operational costs effectively.
 
-Enter Kubeflow, an end-to-end MLOps platform that streamlines machine learning workflows, and KServe, its serverless model deployment component. 
+* Managing the growing volume of data and models.
+* Maintaining and scaling the underlying infrastructure.
+* Seamlessly integrate and deploy models into production.
+* Managing operational costs effectively.
+* Enter Kubeflow, an end-to-end MLOps platform that streamlines machine learning workflows, and KServe, its serverless model deployment component.
 
-Together, they offer a robust solution to these challenges. I'll also utilize Flask to build the model's API, making it easy to integrate with KServe.
+Together, they offer a robust solution to these challenges.
 
 ![](./assets/mlops_mermaid_3.png)
 
-## Why MLOps Matters
+### Why MLOps Matters
 
-Efficient MLOps practices can significantly impact businesses:
-* Accelerates the time from model development to deployment.
-* Enhances the ability to retrain and optimize models.
-* Facilitates the handling of large-scale data and model training.
-* Leads to more informed decision-making and competitive advantage.
+Efficient MLOps practices can significantly impact businesses by:
 
-Kubernetes is a popular choice for MLOps due to:
+* Accelerating the time from model development to deployment.
+* Enhancing the ability to retrain and optimize models.
+* Facilitating the handling of large-scale data and model training.
+* Leading to more informed decision-making and competitive advantage.
+* Why Kubernetes is a popular choice for MLOps?
+
+Kubernetes is a popular choice for MLOps because it:
+
 * Efficiently manages resources and scales applications.
 * Ensures optimal usage of computing resources.
 * Allows for easy deployment across different environments.
 
-## Kubeflow Overview
+**Why Kubeflow?**
 
-Kubeflow comprises several components that support the entire ML lifecycle:
+Kubeflow is a comprehensive platform that supports the entire machine learning lifecycle. It comprises several key components:
 
-
-
-* Pipelines: Automates the workflow from data ingestion to model deployment.
-* Notebooks: Provides an interactive environment for data scientists to experiment and develop models.
-* Experiments: Tracks and manages different model versions and experiments.
+* Pipelines automates the workflow from data ingestion to model deployment, streamlining the process and ensuring consistency.
+* Notebooks provides an interactive environment for data scientists to experiment, develop, and fine-tune models efficiently.
+* Experiments tracks and manages different model versions and experiments, facilitating better model management and iteration.
+* These components work together to simplify and enhance the MLOps process, making it easier to manage, deploy, and scale machine learning models.
 
 ```{figure} ./assets/mlops_mermaid_1.png
 :alt: mlops diagram
 :align: center
 ```
 
-Kubeflow simplifies:
-* Experiment Tracking: Keeps track of different experiments and their outcomes.
-* Model Versioning: Manages multiple versions of a model efficiently.
-* Pipeline Orchestration: Automates and orchestrates complex ML workflows.
-
-
-
 ## KServe & Serverless MLOps
 
-KServe is a Kubernetes-native model-serving framework that simplifies model deployment and scaling. It offers:
-* Serverless Scaling: Automatically scales resources based on demand.
-* Ease of Use: Simplifies the process of deploying and managing models.
+KServe simplifies model deployment and scaling on Kubernetes with its serverless architecture, automatically adjusting resources based on demand.
 
-Serverless MLOps offers several advantages:
-* Reduced Operational Overhead: Minimizes the need for manual infrastructure management.
-* Automatic Scaling: Adjusts resources based on workload, ensuring efficient resource utilization.
-* Cost-Effectiveness: Only pays for the resources used, reducing overall costs.
+Minimized operational overhead, automatic scaling, and cost-effectiveness makes KServe a powerful and straightforward choice for deploying, managing, and scaling machine learning models.
 
 ## Case Study: Churn Prediction Project
 
-I used Flask to create a lightweight and flexible API for the model. This integration makes it easy to deploy and manage the model with KServe.
+In this project, my focus is on the MLOps pipeline, not the specific churn prediction algorithm.
 
+I used Flask to create an API for the model, simplifying deployment and management with KServe.
 
 ![](./assets/mlops_mermaid_2.png)
 
 ### What is Churn?
 
-Churn prediction helps businesses identify customers likely to leave, allowing them to take proactive measures. I use a telco dataset containing customer data and churn status for this case study.
+Churn prediction identifies customers likely to leave, allowing businesses to take proactive measures.
 
-I designed a Kubeflow pipeline to automate the entire process:
+Using a telco dataset with customer data and churn status, I designed a Kubeflow pipeline to automate the entire process.
 
 ```python
 import kfp
@@ -141,9 +133,14 @@ if __name__ == '__main__':
 
 ![](./assets/kubeflow.png)
 
-### Flask Web App
+**What does the Flask Web App do?**
 
-The Flask web app communicates with the model, analyzes user-uploaded JSON files, and returns the churn prediction result.
+The Flask web app:
+
+* takes a JSON file from the user,
+* communicates with the model,
+* analyzes file,
+* finally returns the churn prediction result, chur or no churn.
 
 ```python
 from flask import Flask, request, jsonify
@@ -197,12 +194,10 @@ Why?
 
 We have observed that the customer is still in the early stages of their relationship with the company and may not be fully committed and has the flexibility to leave at any time, making them more likely to churn.
 
-It's crucial to remember that this is a prediction based on a single data snapshot. To make a more accurate churn prediction, it's essential to analyze the customer's behavior over time and consider other factors like customer service interactions, promotions, and competitor offerings.
+It's crucial to remember that this is a prediction based on a single data snapshot.
 
-
-For this tutorial, we verified that our churn prediction model is trained and performing well on the dataset. 
-
-I also have a finalized model artifact (e.g., a serialized model file) ready to package for deployment.
+For more accurate predictions, analyzing long-term behavior and other factors like customer service interactions, promotions, and competitor offerings is essential.
+You can expand this study including other classifiers such as Logistic Regression, Random Forest, Gradient Boosting Machines, and Neural Networks.
 
 ![](./assets/minio.png)
 
