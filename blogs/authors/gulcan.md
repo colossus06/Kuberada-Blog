@@ -2,6 +2,18 @@
 :orphan:
 # Read more from your favourite author
 
+::::{card-carousel} 2
+:::{card}
+:img-top: ../../og/hard.png
+{ref}`workloads`
+^^^
+::::
+:::{card}
+:img-top: ../../og/cicd.png
+{ref}`mlops`
+^^^
+::::
+
 
 ::::{card-carousel} 2
 :::{card}

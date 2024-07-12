@@ -2,7 +2,12 @@
 :orphan:
 # Topic: Read More on Kubernetes
 
-::::{card-carousel} 1
+::::{card-carousel} 2
+:::{card}
+:img-top: ../../og/workloads.png
+{ref}`workloads`
+^^^
+:::
 :::{card}
 :img-top: ../../og/mlops.png
 {ref}`mlops`

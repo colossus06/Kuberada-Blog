@@ -7,7 +7,7 @@ myst:
     "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/mlops.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/mlops.png" alt="istio" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/mlops.png" alt="mlops" class="bg-primary">
  
 (mlops)=
 # Transforming MLOps with Kubeflow & KServe: Churn Prediction
@@ -255,7 +255,7 @@ Using flask based webapp:
 
 If you found this guide helpful,check our blog archives 📚✨
 
-* Follow me on [LinkedIn](https://www.linkedin.com) to get updated.
+* Follow me on [LinkedIn](https://www.linkedin.com/in/gulcantopcu/) to get updated.
 * Read incredible Kubernetes Stories: [Medium](https://medium.com/@gulcantopcu)
 * Challenging projects: You're already in the right place.
 

@@ -444,7 +444,7 @@ These links should provide more information about each tool and how to use them 
 
 If you found this guide helpful,check our blog archives 📚✨
 
-- Follow me on [LinkedIn](https://www.linkedin.com) to get updated.
+- Follow me on [LinkedIn](https://www.linkedin.com/in/gulcantopcu/) to get updated.
 - Read incredible Kubernetes Stories: [Medium](https://medium.com/@gulcantopcu)
 - Challenging projects: You're already in the right place.
 

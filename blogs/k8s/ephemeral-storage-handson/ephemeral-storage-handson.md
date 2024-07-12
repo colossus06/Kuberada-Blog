@@ -249,7 +249,7 @@ In your Kubernetes journey, these hands-on experiences and insights serve as val
 
 If you found this guide helpful,check our blog archives 📚✨
 
-- Follow me on [LinkedIn](https://www.linkedin.com) to get updated.
+- Follow me on [LinkedIn](https://www.linkedin.com/in/gulcantopcu/) to get updated.
 - Read incredible Kubernetes Stories: [Medium](https://medium.com/@gulcantopcu)
 - Challenging projects: You're already in the right place.
 

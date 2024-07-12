@@ -44,7 +44,12 @@ Join me in turning theory into practice.
 
 </br>
 
-::::{card-carousel} 1
+::::{card-carousel} 2
+:::{card}
+:img-top: og/workloads.png
+{ref}`workloads`
+^^^
+:::
 :::{card}
 :img-top: og/mlops.png
 {ref}`mlops`
@@ -153,6 +158,7 @@ blogs/get-started/labs
 ```{toctree}
 :caption: Latest Blogs
 :hidden:
+blogs/k8s/workloads/workloads.md
 blogs/k8s/mlops/mlops.md
 blogs/k8s/hard/hard.md
 blogs/devops/cicd/cicd.md
