@@ -16,8 +16,8 @@ myst:
 :avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
 :avatar-link: ../../../blogs/authors/gulcan.html
 :author: Gulcan Topcu
-:date: Jul 3, 2024
-:read-time: 12 min read
+:date: Jul 12, 2024
+:read-time: 20 min read
 :class-container: sd-p-2 sd-outline-light sd-rounded-2 sd-shadow-md
 ```
 
