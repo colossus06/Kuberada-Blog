@@ -1,12 +1,9 @@
 sphinx
 myst-parser
 typing-extensions
-rst-to-myst[sphinx]
 sphinx-autobuild
 furo
 sphinxext-opengraph
 sphinx-copybutton
 sphinx-design
 sphinx-comments
-# git+https://github.com/choldgraf/sphinx-social-previews
-
