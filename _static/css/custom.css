@@ -8,3 +8,12 @@ footer {
     visibility: hidden;
 
 }
+
+.custom-card-text {
+    background-color: rgb(28, 66, 235); /* Default pastel blue color */
+    color: rgb(4, 10, 61);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-style: italic;
+}

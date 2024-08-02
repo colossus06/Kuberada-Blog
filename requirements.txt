@@ -7,5 +7,6 @@ furo
 sphinxext-opengraph
 sphinx-copybutton
 sphinx-design
+sphinx-comments
 # git+https://github.com/choldgraf/sphinx-social-previews
 

@@ -10,7 +10,7 @@ myst:
 <img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ephemeral-storage.png" alt="ephemeral" class="bg-primary">
 
 (ephemeral)=
-# 🧸 Ephemeral Storage: A Hands-On Guide with emptyDir, ConfigMap, and Secret in Kubernetes
+# Ephemeral Storage: A Hands-On Guide with emptyDir, ConfigMap, and Secret in Kubernetes
 
 ```{article-info}
 :avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
@@ -255,3 +255,12 @@ If you found this guide helpful,check our blog archives 📚✨
 
 Until next time!
 
+
+<script src="https://utteranc.es/client.js"
+        repo="colossus06/Kuberada-Blog"
+        issue-term="pathname"
+        label="blog"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

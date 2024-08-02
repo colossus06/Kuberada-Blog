@@ -25,10 +25,16 @@ extensions = [
     "myst_parser",
     # "sphinx-social-previews",
     "sphinxext.opengraph",
-    "sphinx_design"
+    "sphinx_design",
+    "sphinx_comments"
 ]
 
-
+comments_config = {
+   "utterances": {
+      "repo": "colossus06/kuberada-blog",
+      "optional": "config",
+   }
+}
 # -- Project information
 # copyright = "2024, Kuberada"
 author = "Gulcan Topcu"
@@ -58,14 +64,14 @@ exclude_patterns = [
 ]
 source_suffix = ['.rst', '.md']
 
-html_favicon = 'images/myfavicon.png'
+html_favicon = 'images/favicon.png'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 copyright = "2024, Kuberada. All rights reserved"
 
-html_logo= "images/mylogo.png"
+html_logo= "images/kuberada.png"
 
 html_theme = 'furo'
 html_static_path = ['_static']
@@ -79,23 +85,21 @@ html_theme_options = {
     "light_css_variables": {
         # "font-stack": "Ubuntu, sans-serif",
         # "font-stack--monospace": "Oswald, monospace",
-        "color-brand-primary": "#270F33",
-        "color-brand-content": "#B1584D"
+        "color-brand-primary": "#13306D",
+        "color-brand-content": "#FFE2E2"
     },
     "dark_css_variables": {
         # "font-stack": "Ubuntu, sans-serif",
         # "font-stack--monospace": "Oswald, monospace",
-        "color-brand-primary": "#A73FDB",
-        "color-brand-content": "#FFEBD8" 
+        "color-brand-primary": "#AC6BF6",
+        "color-brand-content": "#FFEBD8"
         # #10CD23
     },
+
 }
 
 html_js_files = [
-    'js/activate.js',
-    'js/react.js',
-    'js/share.js',
-    'js/joke.js'
+    'js/random_blue.js'
 ]
 
 # These are options specifically for the Wagtail Theme.

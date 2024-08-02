@@ -12,7 +12,7 @@ myst:
 <img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kubernetes-architecture.png" alt="k8s-architecture" class="bg-primary">
 
 (architecture)=
-# 🔩 Understanding Architecture of a Kubernetes Cluster⚙️ 
+# Understanding Architecture of a Kubernetes Cluster
 
 ```{article-info}
 :avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
@@ -155,5 +155,12 @@ Until next time!
 
 
 
-
+<script src="https://utteranc.es/client.js"
+        repo="colossus06/Kuberada-Blog"
+        issue-term="pathname"
+        label="blog"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 

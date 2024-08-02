@@ -1,21 +1,23 @@
 # About Me
 
-Hi 👋
+<p style="font-size: 24px;">Hi, I'm Gulcan.</p>
 
-I'm Gulcan, a DevOps and Kubernetes enthusiast who loves automation, scripting, and solving real-world problems. 
+<p style="font-size: 18px; font-weight: bold; color: #2980b9;">
+I'm a Kubernetes engineer and DevOps/GitOps specialist.
+</p>
 
-If there's a challenge, I'm probably already tinkering with a solution.
+<p style="font-size: 18px;">
+I automate the complex, solve real-world problems, and empower teams to build reliable, scalable systems.
+</p>
 
-## What I Do
+<p style="font-size: 18px; font-weight: bold; color: #2980b9;">
+My passion? Turning Kubernetes theory into practice.
+</p>
 
-- I enjoy tackling challenges with Kubernetes
+<p style="font-size: 18px;">
+Let's simplify your cloud-native journey.
+</p>
 
-- Why do something manually when you can automate it?
-
-- Security is always included, never optional.
-
-Join me on this journey of continuous learning and solving some puzzles.
-<br>
 
 ## Follow Me
 

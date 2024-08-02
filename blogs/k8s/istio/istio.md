@@ -304,3 +304,12 @@ If you found this guide helpful,check our blog archives 📚✨
 - Challenging projects: You're already in the right place.
 
 Until next time!
+
+<script src="https://utteranc.es/client.js"
+        repo="colossus06/Kuberada-Blog"
+        issue-term="pathname"
+        label="blog"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

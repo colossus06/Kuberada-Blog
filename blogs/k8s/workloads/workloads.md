@@ -680,10 +680,19 @@ Remember, the key to success is not just deploying workloads, but deploying them
 
 **Enjoyed this read?**
 
-If you found this guide helpful, folow me on:
+If you found this guide helpful, follow me on:
 
 * Follow me on [LinkedIn](https://www.linkedin.com/in/gulcantopcu/) to get updated.
 * Read incredible Kubernetes Stories: [Medium](https://medium.com/@gulcantopcu)
 * Challenging projects: You're already in the right place.
 
 Until next time, happy deploying!
+
+<script src="https://utteranc.es/client.js"
+        repo="colossus06/Kuberada-Blog"
+        issue-term="pathname"
+        label="blog"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

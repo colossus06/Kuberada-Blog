@@ -264,3 +264,11 @@ Until next time!
 [^1]: [Harvard Business Review: The Value of Keeping the Right Customers](https://hbr.org/2014/10/the-value-of-keeping-the-right-customers)
 
 
+<script src="https://utteranc.es/client.js"
+        repo="colossus06/Kuberada-Blog"
+        issue-term="pathname"
+        label="blog"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
