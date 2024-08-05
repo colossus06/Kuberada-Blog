@@ -269,6 +269,7 @@ blogs/get-started/labs
 ```{toctree}
 :caption: Latest Blogs
 :hidden:
+blogs/k8s/deploy/deploy.md
 blogs/k8s/workloads/workloads.md
 blogs/k8s/mlops/mlops.md
 blogs/k8s/hard/hard.md
