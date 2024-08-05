@@ -53,6 +53,19 @@ Absolutely. My guide gives you the exact resources and roadmap you need.
 
 </br>
 
+::::{card} 
+:::{card}
+:link: deploy
+:link-type: ref
+:img-bottom: og/deploy.png
+:width: 50%
+:text-align: center
+:class-body: custom-card-text
+
+
+Practice and monitor zero-downtime deployments in Kubernetes with a customer support chatbot, using strategies like Blue/Green and Canary deployments and more.
+:::
+
 ::::{card-carousel} 2
 :::{card}
 :link: workloads

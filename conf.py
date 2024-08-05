@@ -86,7 +86,7 @@ html_theme_options = {
         # "font-stack": "Ubuntu, sans-serif",
         # "font-stack--monospace": "Oswald, monospace",
         "color-brand-primary": "#13306D",
-        "color-brand-content": "#FFE2E2"
+        "color-brand-content": "#b86767"
     },
     "dark_css_variables": {
         # "font-stack": "Ubuntu, sans-serif",
