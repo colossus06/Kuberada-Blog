@@ -1,5 +1,5 @@
 (day1)=
-## 🎯 Day 1: Orientation and Mindset - Setting the Stage for Success
+# 🎯 Day 1: Orientation and Mindset - Setting the Stage for Success
 
 Welcome to the 15-Day CKAD Sprint!
 

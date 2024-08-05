@@ -27,135 +27,138 @@ The right mood
 :class-card: sd-text-black
 :width: 50%
 
-Preparation
+Logistics
 
 :::
 
 :::{card} Day 3 
-:link: cards-clickable
+:link: day3
 :link-type: ref
 :img-background: ./days.png
 :class-card: sd-text-black
 :width: 50%
 
-...
+Strategy
+
 :::
+
 :::{card} Day 4 
-:link: cards-clickable
+:link: day4
 :link-type: ref
 :img-background: ./days.png
 :class-card: sd-text-black
 :width: 50%
 
-...
+Design
 :::
+
 :::{card} Day 5 
-:link: cards-clickable
+:link: day5
 :link-type: ref
 :img-background: ./days.png
 :class-card: sd-text-black
 :width: 50%
 
-...
+Deployment
 :::
+
 :::{card} Day 6 
-:link: cards-clickable
+:link: day6
 :link-type: ref
 :img-background: ./days.png
 :class-card: sd-text-black
 :width: 50%
 
-...
+Observability
 :::
+
 :::{card} Day 7 
-:link: cards-clickable
+:link: day7
 :link-type: ref
 :img-background: ./days.png
 :class-card: sd-text-black
 :width: 50%
 
+Security
 ...
 :::
 :::{card} Day 8 
-:link: cards-clickable
+:link: day8
 :link-type: ref
 :img-background: ./days.png
 :class-card: sd-text-black
 :width: 50%
 
-...
+Hardening
 :::
 :::{card} Day 9 
-:link: cards-clickable
+:link: day9
 :link-type: ref
 :img-background: ./days.png
 :class-card: sd-text-black
 :width: 50%
 
-...
+Networking
 :::
+
 :::{card} Day 10 
-:link: cards-clickable
+:link: day10
 :link-type: ref
 :img-background: ./days.png
 :class-card: sd-text-black
 :width: 50%
 
-...
+Review
+
 :::
 :::{card} Day 11 
-:link: cards-clickable
+:link: day11
 :link-type: ref
 :img-background: ./days.png
 :class-card: sd-text-black
 :width: 50%
 
-...
+Challenges
 :::
+
 :::{card} Day 12 
-:link: cards-clickable
+:link: day12
 :link-type: ref
 :img-background: ./days.png
 :class-card: sd-text-black
 :width: 50%
 
-...
+Time
 :::
+
 :::{card} Day 13 
-:link: cards-clickable
+:link: day13
 :link-type: ref
 :img-background: ./days.png
 :class-card: sd-text-black
 :width: 50%
 
-...
+Strategy
 :::
+
 :::{card} Day 14 
-:link: cards-clickable
+:link: day14
 :link-type: ref
 :img-background: ./days.png
 :class-card: sd-text-black
 :width: 50%
 
-...
+Polish
 :::
+
 :::{card} Day 15 
-:link: cards-clickable
+:link: day15
 :link-type: ref
 :img-background: ./days.png
 :class-card: sd-text-black
 :width: 50%
 
-...
-:::
-:::{card} Congratulations 
-:link: cards-clickable
-:link-type: ref
-:img-background: ./days.png
-:class-card: sd-text-black
-:width: 50%
-
-...
+Exam Day
 :::
 :::::
 

@@ -1,5 +1,5 @@
 (day2)=
-## 🎯 Day 2: Exam Logistics and Setup - Prepare for Battle
+# 🎯 Day 2: Exam Logistics and Setup - Prepare for Battle
 
 Welcome back to the CKAD Sprint!  Today, we're ditching Kubernetes commands for a moment and focusing on the practical side of things: the exam logistics and the setup you'll need to ace it.
 

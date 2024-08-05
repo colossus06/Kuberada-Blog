@@ -352,10 +352,10 @@ spec:
         version: green
     spec:
       containers:
- - name: chatbot
-        image: kuberada-chatbot:green
-        ports:
- - containerPort: 5000
+      - name: chatbot
+              image: kuberada-chatbot:green
+              ports:
+      - containerPort: 5000
 ```
 
 We have two deployments running and one Service (blue deployment svc), which routes traffic to the Blue environment. 
@@ -426,7 +426,7 @@ While Blue/Green deployments are powerful, they come with some potential challen
 * You'll want to make sure user sessions are maintained smoothly across both environments. This can be achieved by using external session stores like Redis (typically used with Python, Node.js, Java) to store session data centrally, allowing sessions to persist even when traffic is switched between environments.
 * Before switching traffic, thoroughly test your new version in the Green environment. Automated testing tools like Selenium (Java, Python, C#) and Cypress (JavaScript) for functional testing and Apache JMeter (Java) or k6 (JavaScript) for load testing are your allies in validating your new deployment. You can also use Locust to test Python-based applications.
 
-## 2. Canary Deployments
+## Canary Deployments
 
 ![](./assets/deploy_diagram_5.png)
 
@@ -452,7 +452,7 @@ spec:
         app: chatbot
     spec:
       containers:
- - name: kuberada-chatbot
+      - name: kuberada-chatbot
         image: kuberada-chatbot:stable
 ...
 ---
@@ -488,7 +488,7 @@ spec:
         app: chatbot
     spec:
       containers:
- - name: kuberada-chatbot
+      - name: kuberada-chatbot
         image: kuberada-chatbot:canary
 ```
 
@@ -713,8 +713,6 @@ If you found this guide helpful, folow me on:
 
 
 Until next time, happy deploying!
-
-Here's a well-structured resources and references section based on your article, with links to relevant tools, concepts, and LearnK8s resources:
 
 ### Resources and References
 
