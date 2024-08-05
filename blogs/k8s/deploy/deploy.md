@@ -718,23 +718,20 @@ Here's a well-structured resources and references section based on your article,
 
 ### Resources and References
 
-- [Canary Deployments Made Easy: A CI/CD Journey with GitHub Actions and Argo CD Rollouts](https://kuberada.devtechops.dev/index.html#29)
+- [Canary Deployments Made Easy: A CI/CD Journey with GitHub Actions and Argo CD Rollouts](https://kuberada.devtechops.dev/blogs/devops/cicd/cicd.html)
 
-- [Unlocking Istio’s Power: A Step-by-Step Guide to Seamless Microservices Management](https://kuberada.devtechops.dev/index.html#33)
+- [Unlocking Istio’s Power: A Step-by-Step Guide to Seamless Microservices Management](https://kuberada.devtechops.dev/blogs/k8s/istio/istio.html)
 
 - [Kubernetes Official Documentation](https://kubernetes.io/docs/)
 - [Kubernetes Documentation on Rolling Updates](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#rolling-update-deployment)
-- [LearnK8s Guide on Blue/Green Deployments](https://learnk8s.io/blue-green-deployment)
-- [LearnK8s Guide on Canary Deployments](https://learnk8s.io/canary-deployments-kubernetes)
 - [Prometheus Documentation](https://prometheus.io/docs/introduction/overview/)
 - [Grafana Documentation](https://grafana.com/docs/)
 - [Argo Rollouts Documentation](https://argoproj.github.io/argo-rollouts/)
 - [Istio Documentation](https://istio.io/latest/docs/)
-- [Flagger Documentation](https://flagger.app/docs/)
+- [Flagger Documentation](https://flagger.app/)
 - [Kubernetes Documentation on Readiness Probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)
 - [LearnK8s Guide on Graceful Shutdowns](https://learnk8s.io/graceful-shutdown)
-- [LearnK8s Advanced Deployments Guide](https://learnk8s.io/advanced-deployments)
-- [LearnK8s Guide on Shadow Deployments](https://learnk8s.io/shadow-deployment)
+- [A visual guide on troubleshooting Kubernetes deployments](https://learnk8s.io/troubleshooting-deployments)
 - [Open Policy Agent Documentation](https://www.openpolicyagent.org/docs/latest/)
 - [Kyverno Documentation](https://kyverno.io/docs/)
 
