@@ -1,27 +1,34 @@
 (15)=
-# 15 Days to get ckad certified
+# The 15 Day CKAD Sprint
 
-Using the `link` and `link-type` options, you can turn an entire card into a clickable link. Try hovering over then clicking on the cards below:
+This 15-day CKAD Sprint equips you with hands-on Kubernetes experience through daily challenges. Each task directly targets essential CKAD skills, ensuring you’re prepared.
+
+**Key Benefits:**
+- **Focus on Practice**: You tackle tasks that are crucial for CKAD success.
+- **Track Your Progress**: The [CKAD Sprint Tracker](#tracker) lets you monitor your progress, storing your session locally in your browser so you can continue where you left off.
+
+I designed this sprint to get you exam-ready quickly and effectively.
 
 :::::{grid} 4
 :::{card} Day 1 
-:link: cards-clickable
+:link: day1
 :link-type: ref
 :img-background: ./days.png
 :class-card: sd-text-black
 :width: 50%
 
-...
+The right mood
 :::
 
 :::{card} Day 2 
-:link: cards-clickable
+:link: day2
 :link-type: ref
 :img-background: ./days.png
 :class-card: sd-text-black
 :width: 50%
 
-...
+Preparation
+
 :::
 
 :::{card} Day 3 
@@ -151,3 +158,8 @@ Using the `link` and `link-type` options, you can turn an entire card into a cli
 ...
 :::
 :::::
+
+
+
+
+

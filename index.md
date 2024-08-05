@@ -6,11 +6,18 @@
 <p style="font-size: 24px;">I'm Gulcan.</p>
 <p style="font-size: 18px; font-weight: bold; color: #2980b9;">Let's turn theory into practice.</p>
 
+
+
+<!-- <iframe src="_static/ckad-sprint-tracker/index.html" width="100%" height="600px" style="border:none;"></iframe> -->
+
+
+
 <!-- ## K8s Certified: The 15-Day CKAD Sprint
 
 Ace the CKAD exam in 15 days? 
 
 Absolutely. My guide gives you the exact resources and roadmap you need. 
+
 
 :::{card} 
 :link: 15
@@ -21,6 +28,8 @@ Absolutely. My guide gives you the exact resources and roadmap you need.
 :text-align: center
 
 ::: -->
+
+
 
 <!-- :::{card} 
 :link-type: ref
@@ -230,14 +239,14 @@ Learn how to leverage ephemeral storage in Kubernetes for efficient resource uti
 
 
 
-```{toctree}
+<!-- ```{toctree}
 :caption: Get Started
 :hidden:
 blogs/get-started/k8s
 blogs/get-started/devops
 blogs/get-started/kuberada
 
-```
+``` -->
 
 <!-- ```{toctree}
 :caption: Blogs by Domains
@@ -246,7 +255,7 @@ blogs/ckad/ckad-collection
 blogs/devops/devops-collection
 ``` -->
 
-</br>
+<!-- </br>
 
 ```{toctree}
 :caption: Labs
@@ -254,7 +263,7 @@ blogs/devops/devops-collection
 blogs/get-started/labs
 ```
 
-</br>
+</br> -->
 
 
 ```{toctree}

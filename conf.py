@@ -62,6 +62,7 @@ exclude_patterns = [
     "**/.ipynb_checkpoints/*",
     "docs",
 ]
+
 source_suffix = ['.rst', '.md']
 
 html_favicon = 'images/favicon.png'

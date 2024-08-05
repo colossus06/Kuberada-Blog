@@ -1,0 +1,19 @@
+footer {
+    text-align: center;
+    padding: 20px; /* Add padding for better visibility, adjust as needed */
+    margin: 4rem;
+}
+
+.sidebar-brand-text {
+    visibility: hidden;
+
+}
+
+.custom-card-text {
+    background-color: rgb(28, 66, 235); /* Default pastel blue color */
+    color: rgb(4, 10, 61);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-style: italic;
+}
